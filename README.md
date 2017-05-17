@@ -44,3 +44,5 @@ website
 * https://martinsbioblogg.wordpress.com/2013/03/21/using-r-correlation-heatmap-with-ggplot2/
 * https://www.r-bloggers.com/shinyheatmaply-a-shiny-app-for-creating-interactive-cluster-heatmaps/
 * https://www.r-bloggers.com/superheat-supercharged-heatmaps-for-r/
+
+* https://www.r-bloggers.com/network-analysis-of-game-of-thrones-family-ties/
