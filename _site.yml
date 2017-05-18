@@ -1,0 +1,16 @@
+name: "oharascience"
+navbar:
+  title: "Home"
+  left:
+    - text: "CV"
+      href: curriculum_vitae.html
+    - text: "Resources"
+      href: resources.html
+  right:
+    - icon: fa-question fa-lg
+      href: https://www.google.com
+output_dir: "."
+output:
+  html_document:
+    theme: flatly
+    highlight: textmate
