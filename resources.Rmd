@@ -51,3 +51,4 @@ website
 * https://www.r-bloggers.com/superheat-supercharged-heatmaps-for-r/
 
 * https://www.r-bloggers.com/network-analysis-of-game-of-thrones-family-ties/
+* https://www.r-bloggers.com/subplots-in-maps-with-ggplot2/
