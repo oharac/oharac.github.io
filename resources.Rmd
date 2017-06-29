@@ -6,6 +6,11 @@ title: "Resources"
 
 website
 
+## blogs and general resources:
+
+* www.burns-stat.com/documents/tutorials/impatient-r/
+* https://statsthewayilikeit.com/about/statistical-test-flowchart/
+
 ## tutorials to explore:
 
 ### cool plots
