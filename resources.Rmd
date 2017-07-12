@@ -41,6 +41,7 @@ website
 * https://www.r-bloggers.com/network-analysis-of-game-of-thrones-family-ties/
 * https://www.r-bloggers.com/random-forest-classification-of-mushrooms/
 * https://www.r-bloggers.com/predicting-wine-quality-using-random-forests/
+* https://www.r-bloggers.com/neural-networks-exercises-part-3/
 
 ### shiny
 
