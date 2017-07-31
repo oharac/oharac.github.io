@@ -24,6 +24,8 @@ website
 * https://blog.ouseful.info/2017/03/17/experimenting-with-sankey-diagrams-in-r-and-python/
 * https://www.r-bloggers.com/sankey-charts-for-swinging-voters/
 * https://www.r-bloggers.com/forest-plot-with-horizontal-bands
+* https://www.r-bloggers.com/ggplot2-easy-way-to-mix-multiple-graphs-on-the-same-page/
+* https://www.r-bloggers.com/how-to-build-a-color-palette-from-any-image-with-r-and-k-means-algo/
 
 ### cool maps
 
