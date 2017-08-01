@@ -27,6 +27,7 @@ website
 * https://www.r-bloggers.com/ggplot2-easy-way-to-mix-multiple-graphs-on-the-same-page/
 * https://www.r-bloggers.com/how-to-build-a-color-palette-from-any-image-with-r-and-k-means-algo/
 * https://cran.r-project.org/web/packages/ggjoy/vignettes/introduction.html
+* http://blog.revolutionanalytics.com/2017/07/joyplots.html
 
 ### cool maps
 
