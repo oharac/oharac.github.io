@@ -41,6 +41,7 @@ website
 * https://jennybc.github.io/purrr-tutorial/index.html
 * https://www.r-bloggers.com/machine-learning-linear-regression-full-example-boston-housing
 * https://www.r-bloggers.com/simulation-of-empirical-bayesian-methods-using-baseball-statistics/
+* http://varianceexplained.org/r/empirical_bayes_baseball/
 * https://github.com/prioritizr/teaching/tree/master/cbcs-seminar
 * https://www.r-bloggers.com/network-analysis-of-game-of-thrones-family-ties/
 * https://www.r-bloggers.com/random-forest-classification-of-mushrooms/
@@ -76,6 +77,7 @@ website
 * https://www.r-bloggers.com/parsing-text-for-emotion-terms-analysis-visualization-using-r/
 * https://www.r-bloggers.com/twitter-sentiment-analysis-with-machine-learning-in-r-using-doc2vec-approach/
 * https://www.r-bloggers.com/whats-in-the-words-comparing-artists-and-lyrics-with-r/
+* https://www.r-bloggers.com/sentiment-analysis-of-the-lord-of-the-rings-with-tidytext/
 * https://ropensci.org/packages/#literature
 
 ### misc
