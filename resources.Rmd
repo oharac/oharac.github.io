@@ -28,6 +28,7 @@ website
 * https://www.r-bloggers.com/how-to-build-a-color-palette-from-any-image-with-r-and-k-means-algo/
 * https://cran.r-project.org/web/packages/ggjoy/vignettes/introduction.html
 * http://blog.revolutionanalytics.com/2017/07/joyplots.html
+* https://www.r-bloggers.com/stippling-and-tsp-art-in-r-emulating-stipplegen/
 
 ### cool maps
 
