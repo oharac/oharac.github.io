@@ -34,6 +34,7 @@ website
       * https://www.r-bloggers.com/joyplot-for-gsea-result/
 * https://www.r-bloggers.com/stippling-and-tsp-art-in-r-emulating-stipplegen/
 * https://www.r-bloggers.com/7-alternatives-to-word-clouds-for-visualizing-long-lists-of-data/
+* https://www.r-bloggers.com/infographic-style-charts-using-the-r-waffle-package/
 
 ### cool maps
 
@@ -56,6 +57,9 @@ website
 * http://www.r-exercises.com/2017/08/25/machine-learning-tutorial/
     * https://www.r-bloggers.com/applying-machine-learning-algorithms-exercises/
     * https://www.r-bloggers.com/summarizing-dataset-to-apply-machine-learning-exercises/
+    * https://www.r-bloggers.com/visualizing-dataset-to-apply-machine-learning-exercises/
+* https://www.r-bloggers.com/naive-principal-component-analysis-using-r/
+* https://www.r-bloggers.com/analyzing-google-trends-data-in-r-2/
 
 ### linear algebra, prob and stats
 
