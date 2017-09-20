@@ -29,6 +29,7 @@ website
 * https://cran.r-project.org/web/packages/ggjoy/vignettes/introduction.html
 * http://blog.revolutionanalytics.com/2017/07/joyplots.html
 * https://www.r-bloggers.com/stippling-and-tsp-art-in-r-emulating-stipplegen/
+* https://www.r-bloggers.com/7-alternatives-to-word-clouds-for-visualizing-long-lists-of-data/
 
 ### cool maps
 
@@ -36,27 +37,38 @@ website
 * http://colinfay.me/rstats-create-a-pixel-map-with-r/
 * https://www.r-bloggers.com/plot-the-vote-making-u-s-senate-house-cartograms-in-r
 * https://www.r-bloggers.com/animated-world-inequality-map/
+* https://www.r-bloggers.com/mapping-fall-foliage-with-sf/
 
 ### cool analyses
 
 * https://jennybc.github.io/purrr-tutorial/index.html
 * https://www.r-bloggers.com/machine-learning-linear-regression-full-example-boston-housing
-* https://www.r-bloggers.com/simulation-of-empirical-bayesian-methods-using-baseball-statistics/
-* http://varianceexplained.org/r/empirical_bayes_baseball/
 * https://github.com/prioritizr/teaching/tree/master/cbcs-seminar
 * https://www.r-bloggers.com/network-analysis-of-game-of-thrones-family-ties/
 * https://www.r-bloggers.com/random-forest-classification-of-mushrooms/
 * https://www.r-bloggers.com/predicting-wine-quality-using-random-forests/
 * https://www.r-bloggers.com/neural-networks-exercises-part-3/
+* https://www.r-bloggers.com/imdb-genre-classification-using-deep-learning/
+* http://www.r-exercises.com/2017/08/25/machine-learning-tutorial/
+    * https://www.r-bloggers.com/applying-machine-learning-algorithms-exercises/
+    * https://www.r-bloggers.com/summarizing-dataset-to-apply-machine-learning-exercises/
+
+### linear algebra, prob and stats
+
+* https://www.r-bloggers.com/generalized-linear-functions-beginners/
+* http://varianceexplained.org/r/empirical_bayes_baseball/
+* https://www.r-bloggers.com/simulation-of-empirical-bayesian-methods-using-baseball-statistics/
+* https://www.r-bloggers.com/assessing-the-accuracy-of-our-models-r-squared-adjusted-r-squared-rmse-mae-aic/
+* https://www.r-bloggers.com/probability-functions-advanced/
 
 ### shiny
 
 * https://www.r-bloggers.com/find-modern-interactive-web-based-charts-for-r-at-the-htmlwidgets-gallery/
 * https://www.r-bloggers.com/shiny-application-layouts-exercises-part-1
-* https://www.r-bloggers.com/shiny-application-layouts-exercises-part-2
-* https://www.r-bloggers.com/shiny-application-layouts-exercises-part-3
-* https://www.r-bloggers.com/shiny-application-layouts-exercises-part-4
-* https://www.r-bloggers.com/shiny-application-layouts-exercises-part-5
+    * https://www.r-bloggers.com/shiny-application-layouts-exercises-part-2
+    * https://www.r-bloggers.com/shiny-application-layouts-exercises-part-3
+    * https://www.r-bloggers.com/shiny-application-layouts-exercises-part-4
+    * https://www.r-bloggers.com/shiny-application-layouts-exercises-part-5
 * https://stoltzmaniac.shinyapps.io/medicare_data/ - how to include a csv download button in shiny
 
 ### heatmaps
@@ -80,6 +92,8 @@ website
 * https://www.r-bloggers.com/whats-in-the-words-comparing-artists-and-lyrics-with-r/
 * https://www.r-bloggers.com/sentiment-analysis-of-the-lord-of-the-rings-with-tidytext/
 * https://ropensci.org/packages/#literature
+* https://www.r-bloggers.com/data-wrangling-cleansing-regular-expressions-13/
+    * https://www.r-bloggers.com/data-wrangling-cleansing-regular-expressions-23/
 
 ### misc
 
