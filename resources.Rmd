@@ -15,6 +15,9 @@ website
 
 ### cool plots
 
+* http://www.r-exercises.com/2017/08/10/how-to-create-interactive-visualizations-with-ggvis/
+    * https://www.r-bloggers.com/ggvis-exercises-part-1/
+    * https://www.r-bloggers.com/ggvis-exercises-part-2/
 * https://www.r-bloggers.com/subplots-in-maps-with-ggplot2/
 * https://www.r-bloggers.com/data-visualization-with-googlevis-exercises-part-1/
 * https://www.r-bloggers.com/a-very-palette-able-post/
@@ -28,6 +31,7 @@ website
 * https://www.r-bloggers.com/how-to-build-a-color-palette-from-any-image-with-r-and-k-means-algo/
 * https://cran.r-project.org/web/packages/ggjoy/vignettes/introduction.html
 * http://blog.revolutionanalytics.com/2017/07/joyplots.html
+      * https://www.r-bloggers.com/joyplot-for-gsea-result/
 * https://www.r-bloggers.com/stippling-and-tsp-art-in-r-emulating-stipplegen/
 * https://www.r-bloggers.com/7-alternatives-to-word-clouds-for-visualizing-long-lists-of-data/
 
@@ -94,8 +98,13 @@ website
 * https://ropensci.org/packages/#literature
 * https://www.r-bloggers.com/data-wrangling-cleansing-regular-expressions-13/
     * https://www.r-bloggers.com/data-wrangling-cleansing-regular-expressions-23/
+    
+### economics
+
+* https://www.r-bloggers.com/estimating-gini-coefficient-when-we-only-have-mean-income-by-decile-by-ellis2013nz/
 
 ### misc
 
+* https://www.r-bloggers.com/gotr-r-wrapper-for-an-api-of-ice-and-fire/
 * https://www.r-bloggers.com/teach-kids-about-r-with-minecraft/
 
