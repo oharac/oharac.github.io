@@ -93,6 +93,7 @@ website
 ### text analysis
 
 * https://www.r-bloggers.com/release-open-data-from-their-pdf-prisons-using-tabulizer
+* https://www.r-bloggers.com/working-with-pdfs-scraping-the-pass-budget
 * https://www.r-bloggers.com/retrieving-reading-levels-with-r
 * https://www.r-bloggers.com/character-functions-advanced/
 * http://blog.revolutionanalytics.com/2017/04/warren-buffet-sentiment.html
