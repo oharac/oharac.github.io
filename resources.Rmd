@@ -53,6 +53,7 @@ website
 * https://www.r-bloggers.com/random-forest-classification-of-mushrooms/
 * https://www.r-bloggers.com/predicting-wine-quality-using-random-forests/
 * https://www.r-bloggers.com/neural-networks-exercises-part-3/
+* http://selbydavid.com/2018/01/09/neural-network/
 * https://www.r-bloggers.com/imdb-genre-classification-using-deep-learning/
 * http://www.r-exercises.com/2017/08/25/machine-learning-tutorial/
     * https://www.r-bloggers.com/applying-machine-learning-algorithms-exercises/
