@@ -43,6 +43,7 @@ website
 * https://www.r-bloggers.com/plot-the-vote-making-u-s-senate-house-cartograms-in-r
 * https://www.r-bloggers.com/animated-world-inequality-map/
 * https://www.r-bloggers.com/mapping-fall-foliage-with-sf/
+* https://www.r-bloggers.com/ggplot2-how-geoms-aesthetics-%E2%89%88-whipped-cream/
 
 ### cool analyses
 
@@ -69,6 +70,7 @@ website
 * https://www.r-bloggers.com/simulation-of-empirical-bayesian-methods-using-baseball-statistics/
 * https://www.r-bloggers.com/assessing-the-accuracy-of-our-models-r-squared-adjusted-r-squared-rmse-mae-aic/
 * https://www.r-bloggers.com/probability-functions-advanced/
+* https://www.r-bloggers.com/regression-analysis-essentials-for-machine-learning/
 
 ### shiny
 
