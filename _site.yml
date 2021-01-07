@@ -2,7 +2,7 @@ name: "."
 title: "mfeo"
 description: |
   mfeo
-output_dir: "distill_test"
+output_dir: "docs"
 theme: postcards.css
 navbar:
   right:
