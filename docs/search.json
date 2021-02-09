@@ -6,21 +6,21 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-02-09T10:11:34-08:00"
+      "last_modified": "2021-02-09T10:15:47-08:00"
     },
     {
       "path": "blog.html",
       "title": "Blog",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-02-09T10:11:35-08:00"
+      "last_modified": "2021-02-09T10:15:47-08:00"
     },
     {
       "path": "index.html",
       "title": "Casey O'Hara",
       "author": [],
       "contents": "\n\n          \n          \n          oharascience\n          \n          \n          Home\n          About\n          Blog\n          ☰\n          \n          \n      \n        \n          \n            Casey O’Hara\n          \n          \n            \n              Blah blah, I do stuff and like things.\n            \n            \n              Blah blah, I do stuff and like things.\n            \n          \n\n          \n            \n              \n                  \n                    \n                      LinkedIn\n                    \n                  \n                \n                                \n                  \n                    \n                      Twitter\n                    \n                  \n                \n                                \n                  \n                    \n                      GitHub\n                    \n                  \n                \n                                \n                  \n                    \n                      Email\n                    \n                  \n                \n                              \n          \n\n          \n            \n              \n                                \n                  \n                    LinkedIn\n                  \n                \n                                \n                  \n                    Twitter\n                  \n                \n                                \n                  \n                    GitHub\n                  \n                \n                                \n                  \n                    Email\n                  \n                \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    ",
-      "last_modified": "2021-02-09T10:11:35-08:00"
+      "last_modified": "2021-02-09T10:15:48-08:00"
     }
   ],
   "collections": ["posts/posts.json"]

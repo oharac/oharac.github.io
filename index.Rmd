@@ -1,6 +1,6 @@
 ---
 title: "Casey O'Hara"
-image: "casey_and_waffle.jpg"
+image: "waffle.jpg"
 links:
   - label: LinkedIn
     url: "https://linkedin.com/"
