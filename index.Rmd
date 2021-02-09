@@ -1,6 +1,6 @@
 ---
-title: "Tobi Burns"
-image: "tobi.jpg"
+title: "Casey O'Hara"
+image: "casey_and_waffle.jpg"
 links:
   - label: LinkedIn
     url: "https://linkedin.com/"
@@ -15,6 +15,4 @@ output:
 site: distill::distill_website
 ---
  
-I am a classically trained data scientist living in the San Francisco Bay Area. 
-Currently I work on the Oculus team at Facebook. I love talking about baseball, 
-true crime podcasts, and causal inference.
+Blah blah, I do stuff and like things.
