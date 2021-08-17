@@ -1,0 +1,143 @@
+---
+title: "Casey O'Hara"
+description: |
+  casey.c.ohara@gmail.com | cohara@bren.ucsb.edu
+# output:
+#   html_document:
+#     highlight: haddock
+#     theme: cerulean
+#     toc: no
+#   pdf_document:
+#     toc: no
+#   word_document:
+#     toc: no
+---
+<!-- for PDF: comment out title/description in YAML header -->
+<!-- This will render for PDF title, but not for HTML title: -->
+\begin{center}
+  {\LARGE \textbf{Casey O'Hara}}\\
+  casey.c.ohara@gmail.com | cohara@bren.ucsb.edu
+\end{center}
+
+<!-- ## Curriculum Vitae {.tabset} -->
+
+<!-- ### Education and Experience -->
+
+## Education
+
+__PhD Environmental Science and Management (2022 expected)__  
+Bren School of Environmental Science & Management, University of California, Santa Barbara  
+_Committee: Dr. Benjamin Halpern (chair), Dr. Haley Froehlich, Dr. Christopher Costello_
+
+__Master of Environmental Science and Management (2014)__  
+Bren School of Environmental Science & Management, University of California, Santa Barbara  
+_UCSB University Award of Distinction; Bren School Academic Achievement Award_
+
+__Single Subject Teaching Credential in Science, Physics (2004)__  
+Graduate School of Education, San Francisco State University
+
+__Master of Science in Mechanical Engineering Design (1994)__  
+Department of Mechanical Engineering, Design Division, Stanford University
+
+__Bachelor of Science in Mechanical Engineering (1993)__  
+Department of Mechanical Engineering, Stanford University
+
+## Environmental Science and Management Experience
+
+__Researcher, Ocean Health Index__ (January 2015 – present) <br>
+National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
+
+__AAAS Mass Media Science Fellowship__ (June 2014 - September 2014) <br>
+_The Oregonian_ - Portland, OR
+
+__Program Consultant__ (June 2013 - August 2013) <br>
+The School for Examining Essential Questions of Sustainability (SEEQS) Charter School - Honolulu, HI
+
+__Masters Thesis Group Project__ (April 2013 - June 2014) <br>
+UCSB Bren School - Santa Barbara, CA “Offshore wind energy in the context of multiple ocean uses on the Bermuda platform.” Client: Department of Environmental Protection, Bermuda
+
+## Teaching and mentoring experience (post-secondary)
+
+__Teaching Associate__
+
+* Advanced Data Analysis (ESM244) (Winter 2022)
+
+__Teaching Assistant__ 
+
+* Statistics & Data Analysis for Environmental Science & Management (ESM206) (Fall 2019, 2021)
+* Advanced Data Analysis (ESM244) (Winter 2021)
+* Geographic Information Systems (ESM263) (Winter 2020)
+* Environmental Informatics (ESM262) (Spring 2019)
+* Quantitative Methods in Environmental Studies (ES25) (Spring 2013)
+
+__Group Project Ph.D. Mentor__
+
+* Developing a site suitability framework for shellfish aquaculture on Canada’s Pacific Coast (2021-2022)
+* Spatial Analysis to Inform Policy Recommendations for Shark and Ray Protection in Mozambique (2020-2021)
+* Where the	Wind Goes: Motivating Low Ecological Risk Wind Development (2018-2019)
+
+See also _STEM Education and Engineering_
+
+## Working Groups
+
+* __Functional Interactions and Biodiversity Targets__ (April 2021, ongoing) <br>
+National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
+* __Species Vulnerability Working Group (National Philanthropic Trust)__ (February 2020) <br>
+Matadradra Serua, Fiji
+* __Coastal Outcomes Working Group (SNAPP)__ (April 2019) <br>
+National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
+* __Ocean Futures Working Group (SNAPP)__ (July 2018) <br>
+National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
+
+
+## Relevant Technical Skills
+
+*	R/R Studio including spatial analysis, data visualization, package development, ShinyApps
+* Git/GitHub version control and project management
+*	MATLAB, Stata, C/C++, HTML, JavaScript, LaTeX
+*	ArcGIS, QGIS
+
+## Publications
+
+* __O’Hara, C. C.__, Frazier, M., & Halpern, B. S. (2021). [At-risk marine biodiversity faces extensive, expanding, and intensifying human impacts. Science, 372(6537), 84–87](https://doi.org/10.1126/science.abe6731). 
+* Butt, N.,  Halpern, B. S., __O’Hara, C. C.__, et al. (in revision) A trait-based framework for assessing the vulnerability of marine species to human impacts. Ecosphere.
+* Simmons, B. A., Butt, N., __O’Hara, C. C.__, Ray, R., Yang, H., Ma, Y., Ma, X., Gallagher, K. P. (draft)  Mapping the risks of China’s global coastal development to marine socio-ecological systems.
+* Roberson, L., __O’Hara, C. C.__, Watson, J., Halpern, B., Klein, C., Dunn, D., Frazier, M., Beyer, H., Keumpel, C., Williams, B., Grantham, H., Montgomery, J., Kark, S., & Runting, R. (2021, in production). [Multinational Coordination Required for Conservation of Over 90% of Marine Species. Global Change Biology (preprint)](https://www.preprints.org/manuscript/202008.0525/download/final_file).
+* Beck, M. W., __O’Hara, C. C.__, Lowndes, J. S. S., Mazor, R. D., Theroux, S., Gillett, D. J., Lane, B., & Gearheart, G. (2020). [The importance of open science for biological assessment of aquatic environments. PeerJ, 8, e9539.](https://doi.org/10.7717/peerj.9539)
+* __O’Hara, C. C.__, Scarborough, C., Hunter, K. L., Afflerbach, J. C., Bodtker, K., Frazier, M., Lowndes, J. S. S., Perry, R. I., & Halpern, B. S. (2020). [Changes in ocean health in British Columbia from 2001 to 2016. PLOS ONE, 15(1), e0227502.](https://doi.org/10.1371/journal.pone.0227502)
+* Friedman, W. R., Halpern, B. S., McLeod, E., Beck, M. W., Duarte, C. M., Kappel, C. V., Levine, A., Sluka, R. D., Adler, S., __O’Hara, C. C.__, Sterling, E. J., Tapia-Lewin, S., Losada, I. J., McClanahan, T. R., Pendleton, L., Spring, M., Toomey, J. P., Weiss, K. R., Possingham, H. P., & Montambault, J. R. (2020). [Research Priorities for Achieving Healthy Marine Ecosystems and Human Communities in a Changing Climate. Frontiers in Marine Science, 7.](https://doi.org/10.3389/fmars.2020.00005)
+* Halpern, B. S., Frazier, M., Afflerbach, J., Lowndes, J. S., Micheli, F., __O’Hara, C. C.__, Scarborough, C., & Selkoe, K. A. (2019). [Recent pace of change in human impact on the world’s ocean. Scientific Reports, 9(1), 1–8.](https://doi.org/10.1038/s41598-019-47201-9)
+* Burgass, M. J., Milner-Gulland, E. J., Stewart Lowndes, J. S., __O’Hara, C. C.__, Afflerbach, J. C., & Halpern, B. S. (2018). [A pan-Arctic assessment of the status of marine social-ecological systems. Regional Environmental Change.](https://doi.org/10.1007/s10113-018-1395-6)
+* __O’Hara, C. C.__, Villaseñor‐Derbez, J. C., Ralph, G. M., & Halpern, B. S. (2019). [Mapping status and conservation of global at‐risk marine biodiversity. Conservation Letters, e12651.](https://doi.org/10.1111/conl.12651)
+* Halpern, B. S., Frazier, M., Afflerbach, J., __O’Hara, C. C.__, Katona, S., Stewart Lowndes, J. S., Jiang, N., Pacheco, E., Scarborough, C., & Polsenberg, J. (2017). [Drivers and implications of change in global ocean health over the past five years. PLOS ONE, 12(7), e0178267.](https://doi.org/10.1371/journal.pone.0178267)
+* Lowndes, J. S. S., Best, B. D., Scarborough, C., Afflerbach, J. C., Frazier, M. R., __O’Hara, C. C.__, Jiang, N., & Halpern, B. S. (2017). [Our path to better science in less time using open data science tools. Nature Ecology & Evolution, 1(6), 0160.](https://doi.org/10.1038/s41559-017-0160)
+* __O’Hara, C. C.__, Afflerbach, J. C., Scarborough, C., Kaschner, K., & Halpern, B. S. (2017). [Aligning marine species range data to better serve science and conservation. PLOS ONE, 12(5), e0175739.](https://doi.org/10.1371/journal.pone.0175739)
+
+
+<!-- \newpage -->
+## STEM Education and Engineering
+
+### Secondary Education Experience
+
+* Program Consultant (June 2013 - August 2013)  The School for Examining Essential Questions of Sustainability (SEEQS) Charter School - Honolulu, HI 
+* Science Teacher: Physics, Integrated Science, Engineering & Green Tech (August 2004 - June 2012) Carlmont High School - Belmont, CA 
+* Education Liaison (November 2009 - December 2009) Amundsen-Scott South Pole Station, Antarctica 
+
+### Secondary Education Leadership and Honors
+
+* "Where the Wonder Went" documentary short film, Santa Barbara International Film Festival (2014)
+* Senior Fellow, Knowles Science Teaching Foundation (2009 - present)
+* Teaching Fellow, Knowles Science Teaching Foundation (2004 - 2009)
+* Exploratorium Teacher Institute (2004 - 2013)
+* Innovative Teacher of the Year, Carlmont High School (2011)
+* Amgen Award for Science Teaching Excellence (2011)
+* Certification: National Board for Professional Teaching Standards (Science - Adolescent/Young Adult) (2009) 
+
+### Engineering Experience
+
+* Mechanical Engineer (May 2000 - December 2003)   St. Jude Medical, Inc. - Sunnyvale, CA 
+* Mechanical Engineer (May 1997 - May 2000)   Asyst Technologies (Hine Design) - Sunnyvale, CA 
+* Mechanical Engineer (August 1995 - April 1997)  Applied Materials, Inc. - Santa Clara, CA 
+* Maintenance Engineer (August 1994 - August 1995)  ATMEL Inc. - San Jose, CA  
+
+

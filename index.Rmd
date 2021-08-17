@@ -2,17 +2,18 @@
 title: "Casey O'Hara"
 image: "waffle.jpg"
 links:
-  - label: LinkedIn
-    url: "https://linkedin.com/"
-  - label: Twitter
-    url: "https://twitter.com/"
+  # - label: LinkedIn
+  #   url: "https://linkedin.com/"
   - label: GitHub
-    url: "https://github.com/"
+    url: "https://github.com/oharac"
   - label: Email
     url: "mailto:email@email.com"
+  - label: Twitter
+    url: "https://twitter.com/"
 output:
   postcards::jolla
 site: distill::distill_website
 ---
  
-Blah blah, I do stuff and like things.
+Conservation scientist. Environmental data scientist. PhD candidate. Waffle enthusiast.
+
