@@ -108,7 +108,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Casey O'Hara"]},{"type":"character","attributes":{},"value":["casey.c.ohara@gmail.com | cohara@bren.ucsb.edu\n"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Casey O'Hara"]},{"type":"character","attributes":{},"value":["casey.c.ohara@gmail.com | cohara@bren.ucsb.edu"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -455,7 +455,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </style>
 
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
   <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -2124,14 +2124,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   @import url('https://fonts.googleapis.com/css2?family=Amiri');
   @import url('https://fonts.googleapis.com/css2?family=Bitter');
   @import url('https://fonts.googleapis.com/css2?family=DM+Mono');
+  @import url('https://fonts.googleapis.com/css2?family=Raleway');
 
   html {
     /*-- Main font sizes --*/
-    --title-size:      50px;
+    --title-size:      40px;
     --body-size:       1.06rem;
-    --code-size:       14px;
-    --aside-size:      12px;
-    --fig-cap-size:    13px;
+    --body-size:       1.06rem;
+    --code-size:       0.90rem;
+    --aside-size:      0.80rem;
+    --fig-cap-size:    0.90rem;
     /*-- Main font colors --*/
     --title-color:     #000000;
     --header-color:    rgba(0, 0, 0, 0.8);
@@ -2141,8 +2143,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     /*-- Specify custom fonts ~~~ must be imported above   --*/
     --heading-font:    "Amiri", serif;
     --mono-font:       "DM Mono", monospace;
-    --body-font:       "Bitter", sans-serif;
-    --navbar-font:     "Amiri", serif;
+    --body-font:       "Raleway", sans-serif;
+    --navbar-font:     "Raleway", sans-serif;
   }
 
   /*-- ARTICLE METADATA --*/
@@ -2153,34 +2155,39 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --body-color:      rgba(0, 0, 0, 0.8);
   }
 
-  /*-- ARTICLE TABLE OF CONTENTS --*/
+  /*-- ARTICLE TABLE OF CONTENTS where do these take effect? --*/
   .d-contents {
-    --heading-size:    18px;
-    --contents-size:   13px;
+    --heading-size:    1.25rem;
+    --contents-size:   1.09rem;
   }
 
   /*-- ARTICLE APPENDIX --*/
   d-appendix {
     --heading-size:    15px;
     --heading-color:   rgba(0, 0, 0, 0.65);
-    --text-size:       0.8em;
+    --text-size:       0.8rem;
     --text-color:      rgba(0, 0, 0, 0.5);
   }
 
   /*-- WEBSITE HEADER + FOOTER --*/
   /* These properties only apply to Distill sites and blogs  */
+  /* color palette from: https://www.canva.com/learn/website-color-schemes/   */
+  /*     summer sky #286da8   */
+  /*     warm peach #cd5360   */
+  /*     field      #b37d4e   */
+  /*     breeze     #438496   */
 
   .distill-site-header {
-    --title-size:       18px;    
-    --text-color:       #ff414b; /* edited */
-    --text-size:        15px;
-    --hover-color:      #dd424c; /* edited */
-    --bkgd-color:       #ffd8db; /* edited */
+    --title-size:       1.25rem;    
+    --text-color:       rgba(255, 255, 255, 0.7); /* edited */
+    --text-size:        1.25rem;
+    --hover-color:      rgba(255, 255, 255, 1); /* edited */
+    --bkgd-color:       #438496; /* edited */
   }
 
   .distill-site-footer {
     --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
+    --text-size:        1.1rem;
     --hover-color:      white;
     --bkgd-color:       #0F2E3D;
   }
@@ -2196,8 +2203,22 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   /* Change link appearance */
   d-article a {
-    border-bottom: 2px solid #ffd8db;
+    border-bottom: 2px solid #438496;
     text-decoration: none;
+  }
+
+  /* heading formats */
+  h1 {
+    font-size: 2.0rem
+  }
+  h2 {
+    font-size: 1.75rem
+  }
+  h3 {
+    font-size: 1.5rem
+  }
+  h4 {
+    font-size: 1.25rem
   }</style>
   <style type="text/css">
   /* base style */
@@ -2354,7 +2375,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.6.6/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.10.2/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2386,11 +2407,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="research.html">Research</a>
-<a href="projects.html">Projects</a>
-<a href="cv.html">CV</a>
+<a href="index.html">home</a>
+<a href="about.html">about</a>
+<a href="pubs.html">publications</a>
+<a href="cv.html">cv</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2410,8 +2430,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="d-article">
 <!-- for PDF: comment out title/description in YAML header -->
 <!-- This will render for PDF title, but not for HTML title: -->
-<!-- ## Curriculum Vitae {.tabset} -->
-<!-- ### Education and Experience -->
+<!-- for PDF: comment out this line -->
+<p><a href="cv/cv.pdf" target="_blank">(pdf version of CV)</a></p>
 <h2 id="education">Education</h2>
 <p><strong>PhD Environmental Science and Management (2022 expected)</strong><br />
 Bren School of Environmental Science &amp; Management, University of California, Santa Barbara<br />
@@ -2467,8 +2487,8 @@ Department of Mechanical Engineering, Stanford University</p>
 <h2 id="publications">Publications</h2>
 <ul>
 <li><strong>O’Hara, C. C.</strong>, Frazier, M., &amp; Halpern, B. S. (2021). <a href="https://doi.org/10.1126/science.abe6731">At-risk marine biodiversity faces extensive, expanding, and intensifying human impacts. Science, 372(6537), 84–87</a>.</li>
-<li>Butt, N., Halpern, B. S., <strong>O’Hara, C. C.</strong>, et al. (in revision) A trait-based framework for assessing the vulnerability of marine species to human impacts. Ecosphere.</li>
-<li>Simmons, B. A., Butt, N., <strong>O’Hara, C. C.</strong>, Ray, R., Yang, H., Ma, Y., Ma, X., Gallagher, K. P. (draft) Mapping the risks of China’s global coastal development to marine socio-ecological systems.</li>
+<li>Butt, N., Halpern, B. S., <strong>O’Hara, C. C.</strong>, et al. (in revision). A trait-based framework for assessing the vulnerability of marine species to human impacts. Ecosphere.</li>
+<li>Simmons, B. A., Butt, N., <strong>O’Hara, C. C.</strong>, Ray, R., Yang, H., Ma, Y., Ma, X., Gallagher, K. P. (draft). Mapping the risks of China’s global coastal development to marine socio-ecological systems.</li>
 <li>Roberson, L., <strong>O’Hara, C. C.</strong>, Watson, J., Halpern, B., Klein, C., Dunn, D., Frazier, M., Beyer, H., Keumpel, C., Williams, B., Grantham, H., Montgomery, J., Kark, S., &amp; Runting, R. (2021, in production). <a href="https://www.preprints.org/manuscript/202008.0525/download/final_file">Multinational Coordination Required for Conservation of Over 90% of Marine Species. Global Change Biology (preprint)</a>.</li>
 <li>Beck, M. W., <strong>O’Hara, C. C.</strong>, Lowndes, J. S. S., Mazor, R. D., Theroux, S., Gillett, D. J., Lane, B., &amp; Gearheart, G. (2020). <a href="https://doi.org/10.7717/peerj.9539">The importance of open science for biological assessment of aquatic environments. PeerJ, 8, e9539.</a></li>
 <li><strong>O’Hara, C. C.</strong>, Scarborough, C., Hunter, K. L., Afflerbach, J. C., Bodtker, K., Frazier, M., Lowndes, J. S. S., Perry, R. I., &amp; Halpern, B. S. (2020). <a href="https://doi.org/10.1371/journal.pone.0227502">Changes in ocean health in British Columbia from 2001 to 2016. PLOS ONE, 15(1), e0227502.</a></li>
@@ -2480,6 +2500,7 @@ Department of Mechanical Engineering, Stanford University</p>
 <li>Lowndes, J. S. S., Best, B. D., Scarborough, C., Afflerbach, J. C., Frazier, M. R., <strong>O’Hara, C. C.</strong>, Jiang, N., &amp; Halpern, B. S. (2017). <a href="https://doi.org/10.1038/s41559-017-0160">Our path to better science in less time using open data science tools. Nature Ecology &amp; Evolution, 1(6), 0160.</a></li>
 <li><strong>O’Hara, C. C.</strong>, Afflerbach, J. C., Scarborough, C., Kaschner, K., &amp; Halpern, B. S. (2017). <a href="https://doi.org/10.1371/journal.pone.0175739">Aligning marine species range data to better serve science and conservation. PLOS ONE, 12(5), e0175739.</a></li>
 </ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!-- \newpage -->
 <h2 id="stem-education-and-engineering">STEM Education and Engineering</h2>
 <h3 id="secondary-education-experience">Secondary Education Experience</h3>
@@ -2505,7 +2526,7 @@ Department of Mechanical Engineering, Stanford University</p>
 <li>Mechanical Engineer (August 1995 - April 1997) Applied Materials, Inc. - Santa Clara, CA</li>
 <li>Maintenance Engineer (August 1994 - August 1995) ATMEL Inc. - San Jose, CA</li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

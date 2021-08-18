@@ -1,6 +1,17 @@
 ---
 title: "Projects"  # any name you want here
-listing: posts
 ---
 
-<!-- posts appear in alpha/numeric order based on folder name (i.e., date) -->
+An assortment of recent projects
+
+### At-risk marine biodiversity faces extensive, expanding, and intensifying human impacts
+
+- link to publication
+- link to shiny app
+- an image and abstract
+
+### distribution of spp condition
+
+### recent pace of change
+
+### spp vulnerability and mapping

@@ -86,27 +86,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>oharascience: My research
-  </title>
+  <title>oharascience: Projects</title>
 
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="oharascience: My research&#10;"/>
+  <meta property="og:title" content="oharascience: Projects"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="oharascience"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="oharascience: My research&#10;"/>
+  <meta property="twitter:title" content="oharascience: Projects"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["My research\n"]},{"type":"NULL"}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","listing"]}},"value":[{"type":"character","attributes":{},"value":["Projects"]},{"type":"character","attributes":{},"value":["posts"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -453,7 +452,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </style>
 
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
   <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -2122,14 +2121,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   @import url('https://fonts.googleapis.com/css2?family=Amiri');
   @import url('https://fonts.googleapis.com/css2?family=Bitter');
   @import url('https://fonts.googleapis.com/css2?family=DM+Mono');
+  @import url('https://fonts.googleapis.com/css2?family=Raleway');
 
   html {
     /*-- Main font sizes --*/
-    --title-size:      50px;
+    --title-size:      40px;
     --body-size:       1.06rem;
-    --code-size:       14px;
-    --aside-size:      12px;
-    --fig-cap-size:    13px;
+    --body-size:       1.06rem;
+    --code-size:       0.90rem;
+    --aside-size:      0.80rem;
+    --fig-cap-size:    0.90rem;
     /*-- Main font colors --*/
     --title-color:     #000000;
     --header-color:    rgba(0, 0, 0, 0.8);
@@ -2139,8 +2140,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     /*-- Specify custom fonts ~~~ must be imported above   --*/
     --heading-font:    "Amiri", serif;
     --mono-font:       "DM Mono", monospace;
-    --body-font:       "Bitter", sans-serif;
-    --navbar-font:     "Amiri", serif;
+    --body-font:       "Raleway", sans-serif;
+    --navbar-font:     "Raleway", sans-serif;
   }
 
   /*-- ARTICLE METADATA --*/
@@ -2151,34 +2152,39 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --body-color:      rgba(0, 0, 0, 0.8);
   }
 
-  /*-- ARTICLE TABLE OF CONTENTS --*/
+  /*-- ARTICLE TABLE OF CONTENTS where do these take effect? --*/
   .d-contents {
-    --heading-size:    18px;
-    --contents-size:   13px;
+    --heading-size:    1.25rem;
+    --contents-size:   1.09rem;
   }
 
   /*-- ARTICLE APPENDIX --*/
   d-appendix {
     --heading-size:    15px;
     --heading-color:   rgba(0, 0, 0, 0.65);
-    --text-size:       0.8em;
+    --text-size:       0.8rem;
     --text-color:      rgba(0, 0, 0, 0.5);
   }
 
   /*-- WEBSITE HEADER + FOOTER --*/
   /* These properties only apply to Distill sites and blogs  */
+  /* color palette from: https://www.canva.com/learn/website-color-schemes/   */
+  /*     summer sky #286da8   */
+  /*     warm peach #cd5360   */
+  /*     field      #b37d4e   */
+  /*     breeze     #438496   */
 
   .distill-site-header {
-    --title-size:       18px;    
-    --text-color:       #ff414b; /* edited */
-    --text-size:        15px;
-    --hover-color:      #dd424c; /* edited */
-    --bkgd-color:       #ffd8db; /* edited */
+    --title-size:       1.25rem;    
+    --text-color:       rgba(255, 255, 255, 0.7); /* edited */
+    --text-size:        1.25rem;
+    --hover-color:      rgba(255, 255, 255, 1); /* edited */
+    --bkgd-color:       #438496; /* edited */
   }
 
   .distill-site-footer {
     --text-color:       rgba(255, 255, 255, 0.8);
-    --text-size:        15px;
+    --text-size:        1.1rem;
     --hover-color:      white;
     --bkgd-color:       #0F2E3D;
   }
@@ -2194,8 +2200,22 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   /* Change link appearance */
   d-article a {
-    border-bottom: 2px solid #ffd8db;
+    border-bottom: 2px solid #438496;
     text-decoration: none;
+  }
+
+  /* heading formats */
+  h1 {
+    font-size: 2.0rem
+  }
+  h2 {
+    font-size: 1.75rem
+  }
+  h3 {
+    font-size: 1.5rem
+  }
+  h4 {
+    font-size: 1.25rem
   }</style>
   <style type="text/css">
   /* base style */
@@ -2352,7 +2372,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.6.6/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.10.2/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2367,12 +2387,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 </head>
 
-<body>
+<body class="layout-listing">
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"My research\n","authors":[]}
+{"title":"Projects","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2384,11 +2404,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
-<a href="index.html">Home</a>
-<a href="about.html">About</a>
-<a href="research.html">Research</a>
-<a href="projects.html">Projects</a>
-<a href="cv.html">CV</a>
+<a href="index.html">home</a>
+<a href="about.html">about</a>
+<a href="pubs.html">publications</a>
+<a href="cv.html">cv</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
 </nav>
@@ -2396,9 +2415,201 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
+<!--radix_placeholder_article_listing-->
+
+
+<script type="application/javascript">
+
+function init_posts_list() {
+
+  function load_image(img) {
+    var src = $(img).attr('data-src');
+    if (src) {
+      $(img).attr('src', src);
+      $(img).load(function() {
+        img.removeAttribute('data-src');
+      });
+    }
+  }
+
+  function set_posts_visible(posts, visible) {
+    if (visible) {
+
+      // show bottom border by default
+      $(posts).removeClass('post-preview-last');
+
+      // apply limits if need be
+      var max_posts = 25;
+      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
+      if (apply_limits && posts.length > max_posts) {
+        posts = $(posts).slice(0, max_posts);
+      } else {
+        $('.posts-more a').addClass('hidden');
+      }
+
+      // apply last style
+      $(posts.slice(-1)[0]).addClass('post-preview-last');
+
+      $(posts).removeClass('hidden');
+      $(posts).find('img[data-src]').each(function(i, img) {
+        load_image(img);
+      });
+    } else {
+      $(posts).addClass('hidden');
+    }
+  }
+
+  function apply_hash_filter() {
+
+    // clear active state
+    $('.categories .active').removeClass('active');
+
+    // mark all posts invisible to start
+    set_posts_visible($('.posts-list').children('a'), false);
+
+    // if we have a hash filter
+    if (window.location.hash && window.location.hash.startsWith("#category:")) {
+
+      // mark posts that match the category visible
+      var page_category = window.location.hash.replace(/^#category:/, "");
+      var posts = $('.post-metadata').map(function(idx, script) {
+        var metadata = $.parseJSON($(script).html());
+        var post = null;
+        $.each(metadata.categories, function(idx, category) {
+          category = category.replace(/ /g,"_");
+          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
+            post = $(script).parent().get();
+            return false;
+          }
+        });
+        return post;
+      });
+      set_posts_visible(posts, true);
+
+      // mark the hash active
+      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
+
+      // update the list_caption
+      var list_caption = $('.posts-list-caption');
+      var caption = (page_category || '').toLowerCase() === "articles"
+        ? list_caption.attr('data-caption')
+        : ('Category: ' + page_category.replace(/_/g," "));
+      list_caption.text(caption);
+
+    } else {
+
+      // no hash filter, make all posts visible (subject to max display)
+      set_posts_visible($('.posts-list').children(), true);
+
+      // reset list caption
+      var list_caption = $('.posts-list-caption');
+      list_caption.text(list_caption.attr('data-caption'));
+
+
+    }
+  }
+
+  // more articles
+  function apply_post_limits(apply) {
+    if (apply) {
+      $('.posts-container').addClass('posts-apply-limit');
+      $('.posts-more a').removeClass('hidden');
+    } else {
+      $('.posts-container').removeClass('posts-apply-limit');
+      $('.posts-more a').addClass('hidden');
+    }
+  }
+
+  // click handling for tags
+  $('.dt-tag').click(function(ev) {
+    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
+    return false;
+  })
+
+  // hash filter handling
+  apply_hash_filter();
+  $(window).on('hashchange',function() {
+    apply_post_limits(true);
+    apply_hash_filter();
+  });
+
+  // more articles link
+  $('.posts-more a').click(function(e) {
+    e.preventDefault();
+    apply_post_limits(false);
+    apply_hash_filter();
+    return false;
+  });
+
+}
+
+</script>
+
+
+
+<div class="posts-container posts-apply-limit l-page">
+<div class="posts-list">
+<h1 class="posts-list-caption" data-caption="Projects">Projects</h1>
+<a href="posts/01_bd_chi/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">April 3, 2021</div>
+<div class="dt-authors">
+<div class="dt-author">Casey C. O’Hara, Melanie Frazier, Benjamin S. Halpern</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>At-risk marine biodiversity faces extensive, expanding, and intensifying human impacts</h2>
+<div class="dt-tags"></div>
+<p></p>
+</div>
+</a>
+<a href="posts/2021-01-07-welcome/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">Jan. 7, 2021</div>
+<div class="dt-authors">
+<div class="dt-author">Casey O'Hara</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>welcome</h2>
+<div class="dt-tags"></div>
+<p>A short description of the post.</p>
+</div>
+</a>
+<a href="posts/2021-01-09-another/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">Jan. 7, 2021</div>
+<div class="dt-authors">
+<div class="dt-author">Casey O'Hara</div>
+</div>
+</div>
+<div class="thumbnail">
+<img/>
+</div>
+<div class="description">
+<h2>another</h2>
+<div class="dt-tags"></div>
+<p>A short description of the post.</p>
+</div>
+</a>
+</div>
+<div class="posts-more">
+<a href="#">More articles &raquo;</a>
+</div>
+</div>
+<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>My research</h1>
+<h1>Projects</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
@@ -2406,14 +2617,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<p>I am a PhD candidate studying marine conservation at UC Santa Barbara Bren School of Environmental Science and Management, advised by Ben Halpern. I continue to work with the <a href="www.ohi-science.org">Ocean Health Index</a> team at the <a href="www.nceas.ucsb.edu">National Center for Ecological Analysis and Synthesis (NCEAS)</a>.</p>
-<p>My research focuses on process and outcome equity in environmental management - a confluence of ecology, natural resource economics, and behavioral economics. In particular I am interested in marine spatial planning to engage multiple ocean users in decision making that ensures equitable and sustainable access to marine resources and services.</p>
-<p>Principles of open, reproducible data science are fundamental to my philosophy of practice as a scientist and teacher. <a href="https://www.nature.com/articles/s41559-017-0160">“Our path to better science in less time”</a> outlines the story of our Ocean Health Index team’s evolution toward open science best practices, using R, R Studio, and Github to collaborate and communicate our research.</p>
-<p>In a previous life, I taught high school integrated science, physics, and engineering design. As a Senior Fellow of the <a href="https://knowlesteachers.org/">Knowles Teacher Initiative</a>, I continue to work with teachers as a coach and collaborative planner, but I do miss working with my students to help them discover and explore the laws of the universe.</p>
-<p>In my copious free time as a grad student, I enjoy scuba diving and playing music, but not at the same time. My dog Waffle is the best dog in the world, most of the time.</p>
-<div class="layout-chunk" data-layout="l-body">
-<p><img src="waffle.jpg" width="626" /></p>
-</div>
+<!-- posts appear in alpha/numeric order based on folder name (i.e., date) -->
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

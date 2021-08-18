@@ -1,20 +1,22 @@
 ---
 title: |
   About me
-description: |
+image: "waffle_shark.jpg"
+output:
+  postcards::trestles
+site: distill::distill_website
 ---
 
-I am a PhD candidate studying marine conservation at UC Santa Barbara Bren School of Environmental Science and Management, advised by Ben Halpern.  I continue to work with the [Ocean Health Index](www.ohi-science.org) team at the [National Center for Ecological Analysis and Synthesis (NCEAS)](www.nceas.ucsb.edu).
+## My research
 
-My research focuses on process and outcome equity in environmental management - a confluence of ecology, natural resource economics, and behavioral economics.  In particular I am interested in marine spatial planning to engage multiple ocean users in decision making that ensures equitable and sustainable access to marine resources and services.
+Marine ecosystems provide tremendous benefits and services to people, including food provision, economic livelihoods, recreational opportunities, and cultural or spiritual value.  But human activity on land and on the ocean, as well as the effects of climate change, is increasingly placing stress on marine ecosystems, threatening delivery of these valuable contributions to people.  In my research I examine the spatial distribution of impacts of human activity and climate change on marine biodiversity and functional diversity, to inform effective conservation strategies that support a healthy and sustainable marine social-ecological system.  I am also keenly interested in the way that perceptions of equity in conservation decisionmaking can influence the sustainability of positive social and ecological outcomes.
 
-Principles of open, reproducible data science are fundamental to my philosophy of practice as a scientist and teacher.  ["Our path to better science in less time"](https://www.nature.com/articles/s41559-017-0160) outlines the story of our Ocean Health Index team’s evolution toward open science best practices, using R, R Studio, and Github to collaborate and communicate our research. 
+I am a PhD candidate at UC Santa Barbara's Bren School of Environmental Science and Management, advised by Ben Halpern.  I continue to work with the [Ocean Health Index](www.ohi-science.org) team at the [National Center for Ecological Analysis and Synthesis (NCEAS)](www.nceas.ucsb.edu).
+
+Principles of open, reproducible data science are fundamental to my philosophy of practice as a scientist and teacher.  ["Our path to better science in less time"](https://www.nature.com/articles/s41559-017-0160) outlines the story of our Ocean Health Index team's evolution toward open science best practices, using R, R Studio, and Github to collaborate and communicate our research. 
+
+## Other stuff
 
 In a previous life, I taught high school integrated science, physics, and engineering design.  As a Senior Fellow of the [Knowles Teacher Initiative](https://knowlesteachers.org/), I continue to work with teachers as a coach and collaborative planner, but I do miss working with my students to help them discover and explore the laws of the universe. 
 
-In my copious free time as a grad student, I enjoy scuba diving and playing music, but not at the same time.  My dog Waffle is the best dog in the world, most of the time.
-
-```{r, echo = FALSE}
-knitr::include_graphics('waffle.jpg')
-```
-
+In my copious free time as a grad student, I enjoy scuba diving and playing music, but not at the same time.  My dog Waffle is the best dog in the world, most of the time.  As you can see, he is also concerned about protecting marine biodiversity.

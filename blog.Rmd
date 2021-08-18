@@ -1,0 +1,6 @@
+---
+title: "Projects"  # any name you want here
+listing: posts
+---
+
+<!-- posts appear in alpha/numeric order based on folder name (i.e., date) -->

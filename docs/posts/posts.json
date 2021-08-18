@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/01_bd_chi/",
+    "title": "At-risk marine biodiversity faces extensive, expanding, and intensifying human impacts",
+    "description": {},
+    "author": [
+      {
+        "name": "Casey C. O’Hara, Melanie Frazier, Benjamin S. Halpern",
+        "url": {}
+      }
+    ],
+    "date": "2021-04-03",
+    "categories": [],
+    "contents": "\nHuman activities and climate change threaten marine biodiversity worldwide, though sensitivity to these stressors varies considerably by species and taxonomic group. Mapping the spatial distribution of 14 anthropogenic stressors from 2003 to 2013 onto the ranges of 1271 at-risk marine species sensitive to them, we found that, on average, species faced potential impacts across 57% of their ranges, that this footprint expanded over time, and that the impacts intensified across 37% of their ranges. Although fishing activity dominated the footprint of impacts in national waters, climate stressors drove the expansion and intensification of impacts. Mitigating impacts on at-risk biodiversity is critical to supporting resilient marine ecosystems, and identifying the co-occurrence of impacts across multiple taxonomic groups highlights opportunities to amplify the benefits of conservation management.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-08-18T13:07:46-07:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-01-07-welcome/",
     "title": "welcome",
     "description": "A short description of the post.",
@@ -13,7 +30,7 @@
     "categories": [],
     "contents": "\nhere is some stuff\n\n\n\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-02-12T14:02:57-08:00",
+    "last_modified": "2021-08-17T15:08:45-07:00",
     "input_file": {}
   },
   {
@@ -30,7 +47,7 @@
     "categories": [],
     "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-01-07T09:15:40-08:00",
+    "last_modified": "2021-08-17T15:08:45-07:00",
     "input_file": {}
   }
 ]

@@ -12,14 +12,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Amiri');
 @import url('https://fonts.googleapis.com/css2?family=Bitter');
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Raleway');
 
 html {
   /*-- Main font sizes --*/
-  --title-size:      50px;
+  --title-size:      40px;
   --body-size:       1.06rem;
-  --code-size:       14px;
-  --aside-size:      12px;
-  --fig-cap-size:    13px;
+  --body-size:       1.06rem;
+  --code-size:       0.90rem;
+  --aside-size:      0.80rem;
+  --fig-cap-size:    0.90rem;
   /*-- Main font colors --*/
   --title-color:     #000000;
   --header-color:    rgba(0, 0, 0, 0.8);
@@ -29,8 +31,8 @@ html {
   /*-- Specify custom fonts ~~~ must be imported above   --*/
   --heading-font:    "Amiri", serif;
   --mono-font:       "DM Mono", monospace;
-  --body-font:       "Bitter", sans-serif;
-  --navbar-font:     "Amiri", serif;
+  --body-font:       "Raleway", sans-serif;
+  --navbar-font:     "Raleway", sans-serif;
 }
 
 /*-- ARTICLE METADATA --*/
@@ -41,34 +43,39 @@ d-byline {
   --body-color:      rgba(0, 0, 0, 0.8);
 }
 
-/*-- ARTICLE TABLE OF CONTENTS --*/
+/*-- ARTICLE TABLE OF CONTENTS where do these take effect? --*/
 .d-contents {
-  --heading-size:    18px;
-  --contents-size:   13px;
+  --heading-size:    1.25rem;
+  --contents-size:   1.09rem;
 }
 
 /*-- ARTICLE APPENDIX --*/
 d-appendix {
   --heading-size:    15px;
   --heading-color:   rgba(0, 0, 0, 0.65);
-  --text-size:       0.8em;
+  --text-size:       0.8rem;
   --text-color:      rgba(0, 0, 0, 0.5);
 }
 
 /*-- WEBSITE HEADER + FOOTER --*/
 /* These properties only apply to Distill sites and blogs  */
+/* color palette from: https://www.canva.com/learn/website-color-schemes/   */
+/*     summer sky #286da8   */
+/*     warm peach #cd5360   */
+/*     field      #b37d4e   */
+/*     breeze     #438496   */
 
 .distill-site-header {
-  --title-size:       18px;    
-  --text-color:       #ff414b; /* edited */
-  --text-size:        15px;
-  --hover-color:      #dd424c; /* edited */
-  --bkgd-color:       #ffd8db; /* edited */
+  --title-size:       1.25rem;    
+  --text-color:       rgba(255, 255, 255, 0.7); /* edited */
+  --text-size:        1.25rem;
+  --hover-color:      rgba(255, 255, 255, 1); /* edited */
+  --bkgd-color:       #438496; /* edited */
 }
 
 .distill-site-footer {
   --text-color:       rgba(255, 255, 255, 0.8);
-  --text-size:        15px;
+  --text-size:        1.1rem;
   --hover-color:      white;
   --bkgd-color:       #0F2E3D;
 }
@@ -84,6 +91,20 @@ ul > li::marker {
 
 /* Change link appearance */
 d-article a {
-  border-bottom: 2px solid #ffd8db;
+  border-bottom: 2px solid #438496;
   text-decoration: none;
+}
+
+/* heading formats */
+h1 {
+  font-size: 2.0rem
+}
+h2 {
+  font-size: 1.75rem
+}
+h3 {
+  font-size: 1.5rem
+}
+h4 {
+  font-size: 1.25rem
 }
