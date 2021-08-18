@@ -1,6 +1,8 @@
 ---
 title: |
   About me
+description: |
+  About me
 image: "waffle_shark.jpg"
 output:
   postcards::trestles
@@ -17,7 +19,7 @@ I am also keenly interested in the way that perceptions of equity in conservatio
 I am a PhD candidate at UC Santa Barbara's Bren School of Environmental Science and Management, advised by Ben Halpern.
 I continue to work with the [Halpern Lab](benhalpernlab.org) and the [Ocean Health Index](www.ohi-science.org) team at the [National Center for Ecological Analysis and Synthesis (NCEAS)](www.nceas.ucsb.edu).
 
-Principles of open, reproducible data science are fundamental to my philosophy of practice as a scientist and teacher.  ["Our path to better science in less time"](https://www.nature.com/articles/s41559-017-0160) outlines the story of our Ocean Health Index team's evolution toward open science best practices, using R, R Studio, and Github to collaborate and communicate our research. 
+Principles of open, reproducible data science are fundamental to my philosophy of practice as a scientist and teacher.  ["Our path to better science in less time"](https://www.nature.com/articles/s41559-017-0160) outlines the story of our Ocean Health Index team's evolution toward best practices of open science, using R, R Studio, and Github to collaborate and communicate our research. 
 
 ## Other stuff
 
