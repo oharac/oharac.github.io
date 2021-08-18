@@ -9,9 +9,13 @@ site: distill::distill_website
 
 ## My research
 
-Marine ecosystems provide tremendous benefits and services to people, including food provision, economic livelihoods, recreational opportunities, and cultural or spiritual value.  But human activity on land and on the ocean, as well as the effects of climate change, is increasingly placing stress on marine ecosystems, threatening delivery of these valuable contributions to people.  In my research I examine the spatial distribution of impacts of human activity and climate change on marine biodiversity and functional diversity, to inform effective conservation strategies that support a healthy and sustainable marine social-ecological system.  I am also keenly interested in the way that perceptions of equity in conservation decisionmaking can influence the sustainability of positive social and ecological outcomes.
+Marine ecosystems provide tremendous benefits and services to people, including food provision, economic livelihoods, recreational opportunities, and cultural or spiritual value.
+But human activity on land and on the ocean, as well as the effects of climate change, is increasingly placing stress on marine ecosystems, threatening delivery of these valuable contributions to human well being.
+In my research I examine the spatial distribution of impacts of human activity and climate change on marine biodiversity and functional diversity, to inform effective conservation strategies that support a healthy and sustainable marine social-ecological system.
+I am also keenly interested in the way that perceptions of equity in conservation decisionmaking can influence the sustainability of positive social and ecological outcomes.
 
-I am a PhD candidate at UC Santa Barbara's Bren School of Environmental Science and Management, advised by Ben Halpern.  I continue to work with the [Ocean Health Index](www.ohi-science.org) team at the [National Center for Ecological Analysis and Synthesis (NCEAS)](www.nceas.ucsb.edu).
+I am a PhD candidate at UC Santa Barbara's Bren School of Environmental Science and Management, advised by Ben Halpern.
+I continue to work with the [Halpern Lab](benhalpernlab.org) and the [Ocean Health Index](www.ohi-science.org) team at the [National Center for Ecological Analysis and Synthesis (NCEAS)](www.nceas.ucsb.edu).
 
 Principles of open, reproducible data science are fundamental to my philosophy of practice as a scientist and teacher.  ["Our path to better science in less time"](https://www.nature.com/articles/s41559-017-0160) outlines the story of our Ocean Health Index team's evolution toward open science best practices, using R, R Studio, and Github to collaborate and communicate our research. 
 
