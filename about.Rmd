@@ -1,10 +1,11 @@
 ---
-title: |
-  "About me"
+title: "About me"
 image: "waffle_shark.jpg"
+links:
+  - label: want more Waffle?
+    url: "waffle.html"
 output:
   postcards::trestles
-site: distill::distill_website
 ---
 
 ## My research

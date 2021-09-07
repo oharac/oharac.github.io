@@ -4,11 +4,11 @@ image: "waffle1.jpg"
 links:
   # - label: LinkedIn
   #   url: "https://linkedin.com/"
-  - label: Email
+  - label: email
     url: "mailto:cohara@bren.ucsb.edu"
-  - label: GitHub
+  - label: github
     url: "https://github.com/oharac"
-  - label: Twitter
+  - label: twitter
     url: "https://twitter.com/oharascience"
 output:
   postcards::jolla
