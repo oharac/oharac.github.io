@@ -16,9 +16,8 @@
 
 html {
   /*-- Main font sizes --*/
-  --title-size:      40px;
-  --body-size:       1.06rem;
-  --body-size:       1.06rem;
+  --title-size:      28px;
+  --body-size:       0.90rem;
   --code-size:       0.90rem;
   --aside-size:      0.80rem;
   --fig-cap-size:    0.90rem;
@@ -32,71 +31,15 @@ html {
   --heading-font:    "Amiri", serif;
   --mono-font:       "DM Mono", monospace;
   --body-font:       "Raleway", sans-serif;
-  --navbar-font:     "Raleway", sans-serif;
-}
-
-/*-- ARTICLE METADATA --*/
-d-byline {
-  --heading-size:    0.6rem;
-  --heading-color:   rgba(0, 0, 0, 0.5);
-  --body-size:       0.8rem;
-  --body-color:      rgba(0, 0, 0, 0.8);
-}
-
-/*-- ARTICLE TABLE OF CONTENTS where do these take effect? --*/
-.d-contents {
-  --heading-size:    1.25rem;
-  --contents-size:   1.09rem;
-}
-
-/*-- ARTICLE APPENDIX --*/
-d-appendix {
-  --heading-size:    15px;
-  --heading-color:   rgba(0, 0, 0, 0.65);
-  --text-size:       0.8rem;
-  --text-color:      rgba(0, 0, 0, 0.5);
-}
-
-/*-- WEBSITE HEADER + FOOTER --*/
-/* These properties only apply to Distill sites and blogs  */
-/* color palette from: https://www.canva.com/learn/website-color-schemes/   */
-/*     summer sky #286da8   */
-/*     warm peach #cd5360   */
-/*     field      #b37d4e   */
-/*     breeze     #438496   */
-
-.distill-site-header {
-  --title-size:       1.25rem;    
-  --text-color:       rgba(255, 255, 255, 0.7); /* edited */
-  --text-size:        1.25rem;
-  --hover-color:      rgba(255, 255, 255, 1); /* edited */
-  --bkgd-color:       #438496; /* edited */
-}
-
-.distill-site-footer {
-  --text-color:       rgba(255, 255, 255, 0.8);
-  --text-size:        1.1rem;
-  --hover-color:      white;
-  --bkgd-color:       #0F2E3D;
 }
 
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
 
-body {
-  line-height: 1.2;
-}
-
 /* Change bullets */
 ul > li::marker {
   font-size: 1.125em;
   color: #ff414b;
-}
-
-ul li {
-  margin-top: 0px;
-  margin-bottom: 5px;
-  line-height: 1.2;
 }
 
 /* Change link appearance */
@@ -107,14 +50,16 @@ d-article a {
 
 /* heading formats */
 h1 {
-  font-size: 2.0rem;
+  font-size: 4.0rem;
 }
 h2 {
-  font-size: 1.7rem;
-  background-color: rgba(67, 132, 150, 0.12);
+  font-size: 6rem;
+  color: red;
+  background-color: rgba(67, 132, 150, 0.2);
 }
 h3 {
-  font-size: 1.5rem;
+  font-size: 5rem;
+  color: blue;
 }
 h4 {
   font-size: 1.25rem;

@@ -56,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,13 +77,14 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
   <title>oharascience: Casey O'Hara</title>
@@ -108,7 +109,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Casey O'Hara"]},{"type":"character","attributes":{},"value":["casey.c.ohara@gmail.com | cohara@bren.ucsb.edu"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","output"]}},"value":[{"type":"character","attributes":{},"value":["Casey O'Hara"]},{"type":"character","attributes":{},"value":["casey.c.ohara@gmail.com | cohara@bren.ucsb.edu\n"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth","css"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]},{"type":"character","attributes":{},"value":["postcards.css"]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1862,7 +1863,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2195,10 +2199,20 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
 
+  body {
+    line-height: 1.2;
+  }
+
   /* Change bullets */
   ul > li::marker {
     font-size: 1.125em;
     color: #ff414b;
+  }
+
+  ul li {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    line-height: 1.2;
   }
 
   /* Change link appearance */
@@ -2209,16 +2223,17 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   /* heading formats */
   h1 {
-    font-size: 2.0rem
+    font-size: 2.0rem;
   }
   h2 {
-    font-size: 1.75rem
+    font-size: 1.7rem;
+    background-color: rgba(67, 132, 150, 0.12);
   }
   h3 {
-    font-size: 1.5rem
+    font-size: 1.5rem;
   }
   h4 {
-    font-size: 1.25rem
+    font-size: 1.25rem;
   }</style>
   <style type="text/css">
   /* base style */
@@ -2375,7 +2390,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.10.2/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2387,6 +2402,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
+  <link rel="stylesheet" href="postcards.css" type="text/css"/>
 
 </head>
 
@@ -2428,10 +2444,23 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#education">Education</a></li>
+<li><a href="#environmental-science-and-management-experience">Environmental science and management experience</a></li>
+<li><a href="#teaching-and-mentoring-experience-post-secondary">Teaching and mentoring experience (post-secondary)</a></li>
+<li><a href="#working-groups">Working groups</a></li>
+<li><a href="#relevant-technical-skills">Relevant technical skills</a></li>
+<li><a href="#publications">Publications</a></li>
+<li><a href="#stem-education-and-engineering-experience">STEM education and engineering experience</a></li>
+<li><a href="#pdf-version-of-cv"><a href="cv/cv.pdf" target="_blank">PDF version of CV</a></a></li>
+</ul>
+</nav>
+</div>
 <!-- for PDF: comment out title/description in YAML header -->
 <!-- This will render for PDF title, but not for HTML title: -->
-<!-- for PDF: comment out this line -->
-<p><a href="cv/cv.pdf" target="_blank">(pdf version of CV)</a></p>
 <h2 id="education">Education</h2>
 <p><strong>PhD Environmental Science and Management (2022 expected)</strong><br />
 Bren School of Environmental Science &amp; Management, University of California, Santa Barbara<br />
@@ -2445,7 +2474,7 @@ Graduate School of Education, San Francisco State University</p>
 Department of Mechanical Engineering, Design Division, Stanford University</p>
 <p><strong>Bachelor of Science in Mechanical Engineering (1993)</strong><br />
 Department of Mechanical Engineering, Stanford University</p>
-<h2 id="environmental-science-and-management-experience">Environmental Science and Management Experience</h2>
+<h2 id="environmental-science-and-management-experience">Environmental science and management experience</h2>
 <p><strong>Researcher, Ocean Health Index</strong> (January 2015 – present) <br> National Center for Ecological Analysis and Synthesis - Santa Barbara, CA</p>
 <p><strong>AAAS Mass Media Science Fellowship</strong> (June 2014 - September 2014) <br> <em>The Oregonian</em> - Portland, OR</p>
 <p><strong>Program Consultant</strong> (June 2013 - August 2013) <br> The School for Examining Essential Questions of Sustainability (SEEQS) Charter School - Honolulu, HI</p>
@@ -2470,14 +2499,14 @@ Department of Mechanical Engineering, Stanford University</p>
 <li>Where the Wind Goes: Motivating Low Ecological Risk Wind Development (2018-2019)</li>
 </ul>
 <p>See also <em>STEM Education and Engineering</em></p>
-<h2 id="working-groups">Working Groups</h2>
+<h2 id="working-groups">Working groups</h2>
 <ul>
 <li><strong>Functional Interactions and Biodiversity Targets</strong> (April 2021, ongoing) <br> National Center for Ecological Analysis and Synthesis - Santa Barbara, CA</li>
 <li><strong>Species Vulnerability Working Group (National Philanthropic Trust)</strong> (February 2020) <br> Matadradra Serua, Fiji</li>
 <li><strong>Coastal Outcomes Working Group (SNAPP)</strong> (April 2019) <br> National Center for Ecological Analysis and Synthesis - Santa Barbara, CA</li>
 <li><strong>Ocean Futures Working Group (SNAPP)</strong> (July 2018) <br> National Center for Ecological Analysis and Synthesis - Santa Barbara, CA</li>
 </ul>
-<h2 id="relevant-technical-skills">Relevant Technical Skills</h2>
+<h2 id="relevant-technical-skills">Relevant technical skills</h2>
 <ul>
 <li>R/R Studio including spatial analysis, data visualization, package development, ShinyApps</li>
 <li>Git/GitHub version control and project management</li>
@@ -2486,10 +2515,11 @@ Department of Mechanical Engineering, Stanford University</p>
 </ul>
 <h2 id="publications">Publications</h2>
 <ul>
+<li><strong>O’Hara, C. C.</strong>, Halpern, B. S. (Accepted). Anticipating the future of the world’s ocean. Annual Review of Environment and Resources.</li>
 <li><strong>O’Hara, C. C.</strong>, Frazier, M., &amp; Halpern, B. S. (2021). <a href="https://doi.org/10.1126/science.abe6731">At-risk marine biodiversity faces extensive, expanding, and intensifying human impacts. Science, 372(6537), 84–87</a>.</li>
-<li>Butt, N., Halpern, B. S., <strong>O’Hara, C. C.</strong>, et al. (in revision). A trait-based framework for assessing the vulnerability of marine species to human impacts. Ecosphere.</li>
+<li>Butt, N., Halpern, B. S., <strong>O’Hara, C. C.</strong>, et al. (Accepted). A trait-based framework for assessing the vulnerability of marine species to human impacts. Ecosphere.</li>
 <li>Simmons, B. A., Butt, N., <strong>O’Hara, C. C.</strong>, Ray, R., Yang, H., Ma, Y., Ma, X., Gallagher, K. P. (draft). Mapping the risks of China’s global coastal development to marine socio-ecological systems.</li>
-<li>Roberson, L. A., Beyer, H. L., <strong>O’Hara, C.</strong>, Watson, J. E. M., Dunn, D. C., Halpern, B. S., Klein, C. J., Frazier, M. R., Kuempel, C. D., Williams, B., Grantham, H. S., Montgomery, J. C., Kark, S., &amp; Runting, R. K. (2021). <a href="https://doi.org/10.1111/gcb.15844">Multinational coordination required for conservation of over 90% of marine species. Global Change Biology</a>.</li>
+<li>Roberson, L. A., Beyer, H. L., <strong>O’Hara, C.</strong>, Watson, J. E. M., Dunn, D. C., Halpern, B. S., Klein, C. J., Frazier, M. R., Kuempel, C. D., Williams, B., Grantham, H. S., Montgomery, J. C., Kark, S., &amp; Runting, R. K. (2021). <a href="https://doi.org/10.1111/gcb.15844">Multinational coordination required for conservation of over 90% of marine species. Global Change Biology, 27(23), 6206–6216</a>.</li>
 <li>Beck, M. W., <strong>O’Hara, C. C.</strong>, Lowndes, J. S. S., Mazor, R. D., Theroux, S., Gillett, D. J., Lane, B., &amp; Gearheart, G. (2020). <a href="https://doi.org/10.7717/peerj.9539">The importance of open science for biological assessment of aquatic environments. PeerJ, 8, e9539.</a></li>
 <li><strong>O’Hara, C. C.</strong>, Scarborough, C., Hunter, K. L., Afflerbach, J. C., Bodtker, K., Frazier, M., Lowndes, J. S. S., Perry, R. I., &amp; Halpern, B. S. (2020). <a href="https://doi.org/10.1371/journal.pone.0227502">Changes in ocean health in British Columbia from 2001 to 2016. PLOS ONE, 15(1), e0227502.</a></li>
 <li>Friedman, W. R., Halpern, B. S., McLeod, E., Beck, M. W., Duarte, C. M., Kappel, C. V., Levine, A., Sluka, R. D., Adler, S., <strong>O’Hara, C. C.</strong>, Sterling, E. J., Tapia-Lewin, S., Losada, I. J., McClanahan, T. R., Pendleton, L., Spring, M., Toomey, J. P., Weiss, K. R., Possingham, H. P., &amp; Montambault, J. R. (2020). <a href="https://doi.org/10.3389/fmars.2020.00005">Research Priorities for Achieving Healthy Marine Ecosystems and Human Communities in a Changing Climate. Frontiers in Marine Science, 7.</a></li>
@@ -2502,14 +2532,14 @@ Department of Mechanical Engineering, Stanford University</p>
 </ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!-- \newpage -->
-<h2 id="stem-education-and-engineering">STEM Education and Engineering</h2>
-<h3 id="secondary-education-experience">Secondary Education Experience</h3>
+<h2 id="stem-education-and-engineering-experience">STEM education and engineering experience</h2>
+<h3 id="secondary-education-experience">Secondary education experience</h3>
 <ul>
 <li>Program Consultant (June 2013 - August 2013) The School for Examining Essential Questions of Sustainability (SEEQS) Charter School - Honolulu, HI</li>
 <li>Science Teacher: Physics, Integrated Science, Engineering &amp; Green Tech (August 2004 - June 2012) Carlmont High School - Belmont, CA</li>
 <li>Education Liaison (November 2009 - December 2009) Amundsen-Scott South Pole Station, Antarctica</li>
 </ul>
-<h3 id="secondary-education-leadership-and-honors">Secondary Education Leadership and Honors</h3>
+<h3 id="secondary-education-leadership-and-honors">Secondary education leadership and honors</h3>
 <ul>
 <li>“Where the Wonder Went” documentary short film, Santa Barbara International Film Festival (2014)</li>
 <li>Senior Fellow, Knowles Science Teaching Foundation (2009 - present)</li>
@@ -2519,13 +2549,15 @@ Department of Mechanical Engineering, Stanford University</p>
 <li>Amgen Award for Science Teaching Excellence (2011)</li>
 <li>Certification: National Board for Professional Teaching Standards (Science - Adolescent/Young Adult) (2009)</li>
 </ul>
-<h3 id="engineering-experience">Engineering Experience</h3>
+<h3 id="engineering-experience">Engineering experience</h3>
 <ul>
 <li>Mechanical Engineer (May 2000 - December 2003) St. Jude Medical, Inc. - Sunnyvale, CA</li>
 <li>Mechanical Engineer (May 1997 - May 2000) Asyst Technologies (Hine Design) - Sunnyvale, CA</li>
 <li>Mechanical Engineer (August 1995 - April 1997) Applied Materials, Inc. - Santa Clara, CA</li>
 <li>Maintenance Engineer (August 1994 - August 1995) ATMEL Inc. - San Jose, CA</li>
 </ul>
+<!-- for PDF: comment out this line -->
+<h2 id="pdf-version-of-cv"><a href="cv/cv.pdf" target="_blank">PDF version of CV</a></h2>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

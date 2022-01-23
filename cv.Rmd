@@ -2,6 +2,11 @@
 title: "Casey O'Hara"
 description: |
   casey.c.ohara@gmail.com | cohara@bren.ucsb.edu
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+    css: postcards.css
 ---
 <!-- for PDF: comment out title/description in YAML header -->
 
@@ -11,11 +16,7 @@ description: |
   casey.c.ohara@gmail.com | cohara@bren.ucsb.edu
 \end{center}
 
-<!-- for PDF: comment out this line -->
-<a href="cv/cv.pdf" target="_blank">(pdf version of CV)</a> 
-
 ## Education
-
 __PhD Environmental Science and Management (2022 expected)__  
 Bren School of Environmental Science & Management, University of California, Santa Barbara  
 _Committee: Dr. Benjamin Halpern (chair), Dr. Haley Froehlich, Dr. Christopher Costello_
@@ -33,7 +34,7 @@ Department of Mechanical Engineering, Design Division, Stanford University
 __Bachelor of Science in Mechanical Engineering (1993)__  
 Department of Mechanical Engineering, Stanford University
 
-## Environmental Science and Management Experience
+## Environmental science and management experience
 
 __Researcher, Ocean Health Index__ (January 2015 – present) <br>
 National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
@@ -69,7 +70,7 @@ __Group Project Ph.D. Mentor__
 
 See also _STEM Education and Engineering_
 
-## Working Groups
+## Working groups
 
 * __Functional Interactions and Biodiversity Targets__ (April 2021, ongoing) <br>
 National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
@@ -81,7 +82,7 @@ National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 
 
-## Relevant Technical Skills
+## Relevant technical skills
 
 *	R/R Studio including spatial analysis, data visualization, package development, ShinyApps
 * Git/GitHub version control and project management
@@ -96,15 +97,15 @@ National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 
 
 <!-- \newpage -->
-## STEM Education and Engineering
+## STEM education and engineering experience
 
-### Secondary Education Experience
+### Secondary education experience
 
 * Program Consultant (June 2013 - August 2013)  The School for Examining Essential Questions of Sustainability (SEEQS) Charter School - Honolulu, HI 
 * Science Teacher: Physics, Integrated Science, Engineering & Green Tech (August 2004 - June 2012) Carlmont High School - Belmont, CA 
 * Education Liaison (November 2009 - December 2009) Amundsen-Scott South Pole Station, Antarctica 
 
-### Secondary Education Leadership and Honors
+### Secondary education leadership and honors
 
 * "Where the Wonder Went" documentary short film, Santa Barbara International Film Festival (2014)
 * Senior Fellow, Knowles Science Teaching Foundation (2009 - present)
@@ -114,11 +115,13 @@ National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 * Amgen Award for Science Teaching Excellence (2011)
 * Certification: National Board for Professional Teaching Standards (Science - Adolescent/Young Adult) (2009) 
 
-### Engineering Experience
+### Engineering experience
 
 * Mechanical Engineer (May 2000 - December 2003)   St. Jude Medical, Inc. - Sunnyvale, CA 
 * Mechanical Engineer (May 1997 - May 2000)   Asyst Technologies (Hine Design) - Sunnyvale, CA 
 * Mechanical Engineer (August 1995 - April 1997)  Applied Materials, Inc. - Santa Clara, CA 
 * Maintenance Engineer (August 1994 - August 1995)  ATMEL Inc. - San Jose, CA  
 
+<!-- for PDF: comment out this line -->
+## <a href="cv/cv.pdf" target="_blank">PDF version of CV</a> 
 

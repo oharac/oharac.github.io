@@ -11,10 +11,11 @@ title: "Publications"
 #     toc: no
 ---
 
+* __O'Hara, C. C.__, Halpern, B. S. (Accepted). Anticipating the future of the world's ocean. Annual Review of Environment and Resources.
 * __O’Hara, C. C.__, Frazier, M., & Halpern, B. S. (2021). [At-risk marine biodiversity faces extensive, expanding, and intensifying human impacts. Science, 372(6537), 84–87](https://doi.org/10.1126/science.abe6731). 
-* Butt, N.,  Halpern, B. S., __O’Hara, C. C.__, et al. (in revision). A trait-based framework for assessing the vulnerability of marine species to human impacts. Ecosphere.
+* Butt, N.,  Halpern, B. S., __O’Hara, C. C.__, et al. (Accepted). A trait-based framework for assessing the vulnerability of marine species to human impacts. Ecosphere.
 * Simmons, B. A., Butt, N., __O’Hara, C. C.__, Ray, R., Yang, H., Ma, Y., Ma, X., Gallagher, K. P. (draft).  Mapping the risks of China’s global coastal development to marine socio-ecological systems.
-* Roberson, L. A., Beyer, H. L., __O’Hara, C.__, Watson, J. E. M., Dunn, D. C., Halpern, B. S., Klein, C. J., Frazier, M. R., Kuempel, C. D., Williams, B., Grantham, H. S., Montgomery, J. C., Kark, S., & Runting, R. K. (2021). [Multinational coordination required for conservation of over 90% of marine species. Global Change Biology](https://doi.org/10.1111/gcb.15844).
+* Roberson, L. A., Beyer, H. L., __O’Hara, C.__, Watson, J. E. M., Dunn, D. C., Halpern, B. S., Klein, C. J., Frazier, M. R., Kuempel, C. D., Williams, B., Grantham, H. S., Montgomery, J. C., Kark, S., & Runting, R. K. (2021). [Multinational coordination required for conservation of over 90% of marine species. Global Change Biology, 27(23), 6206–6216](https://doi.org/10.1111/gcb.15844).
 * Beck, M. W., __O’Hara, C. C.__, Lowndes, J. S. S., Mazor, R. D., Theroux, S., Gillett, D. J., Lane, B., & Gearheart, G. (2020). [The importance of open science for biological assessment of aquatic environments. PeerJ, 8, e9539.](https://doi.org/10.7717/peerj.9539)
 * __O’Hara, C. C.__, Scarborough, C., Hunter, K. L., Afflerbach, J. C., Bodtker, K., Frazier, M., Lowndes, J. S. S., Perry, R. I., & Halpern, B. S. (2020). [Changes in ocean health in British Columbia from 2001 to 2016. PLOS ONE, 15(1), e0227502.](https://doi.org/10.1371/journal.pone.0227502)
 * Friedman, W. R., Halpern, B. S., McLeod, E., Beck, M. W., Duarte, C. M., Kappel, C. V., Levine, A., Sluka, R. D., Adler, S., __O’Hara, C. C.__, Sterling, E. J., Tapia-Lewin, S., Losada, I. J., McClanahan, T. R., Pendleton, L., Spring, M., Toomey, J. P., Weiss, K. R., Possingham, H. P., & Montambault, J. R. (2020). [Research Priorities for Achieving Healthy Marine Ecosystems and Human Communities in a Changing Climate. Frontiers in Marine Science, 7.](https://doi.org/10.3389/fmars.2020.00005)

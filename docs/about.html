@@ -793,10 +793,20 @@
           /*-- Additional custom styles --*/
           /* Add any additional CSS rules below                      */
 
+          body {
+            line-height: 1.2;
+          }
+
           /* Change bullets */
           ul > li::marker {
             font-size: 1.125em;
             color: #ff414b;
+          }
+
+          ul li {
+            margin-top: 0px;
+            margin-bottom: 5px;
+            line-height: 1.2;
           }
 
           /* Change link appearance */
@@ -807,16 +817,17 @@
 
           /* heading formats */
           h1 {
-            font-size: 2.0rem
+            font-size: 2.0rem;
           }
           h2 {
-            font-size: 1.75rem
+            font-size: 1.7rem;
+            background-color: rgba(67, 132, 150, 0.12);
           }
           h3 {
-            font-size: 1.5rem
+            font-size: 1.5rem;
           }
           h4 {
-            font-size: 1.25rem
+            font-size: 1.25rem;
           }</style>
           <style type="text/css">
           /* base style */
@@ -972,7 +983,7 @@
           .distill-site-footer a:hover {
             color: var(--hover-color, white);
           }</style>
-          <script src="/Library/Frameworks/R.framework/Versions/4.0/Resources/library/rmarkdown/rmd/h/pandoc/header-attrs.js"></script>
+          <script src="/Library/Frameworks/R.framework/Versions/4.1/Resources/library/rmarkdown/rmd/h/pandoc/header-attrs.js"></script>
     
     
   </head>
@@ -1003,7 +1014,7 @@
         <div class="d-flex flex-column col-5 align-items-center text-center align-self-center">
           <div class="mx-auto text-center">
             <div class="p-3">
-              <img src=waffle_shark.jpg style="height:15rem" class="rounded">
+              <img src="waffle_shark.jpg" style="height:15rem" class="rounded">
             </div>
             <div class="p-2">
               <h1>About me</h1>
@@ -1048,7 +1059,7 @@
         <div class="d-flex flex-col">
           <div class="mx-auto">
             <div class="p-3 mt-3 text-center">
-              <img src=waffle_shark.jpg style="height:15rem" class="rounded">
+              <img src="waffle_shark.jpg" style="height:15rem" class="rounded">
             </div>
             <div class="p-2 text-center">
               <h1>About me</h1>
