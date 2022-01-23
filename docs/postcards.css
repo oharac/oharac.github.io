@@ -84,7 +84,7 @@ d-appendix {
 /* Add any additional CSS rules below                      */
 
 body {
-  line-height: 1.2;
+  line-height: 1.3;
 }
 
 /* Change bullets */
@@ -95,8 +95,8 @@ ul > li::marker {
 
 ul li {
   margin-top: 0px;
-  margin-bottom: 5px;
-  line-height: 1.2;
+  margin-bottom: 8px;
+  line-height: 1.3;
 }
 
 /* Change link appearance */
