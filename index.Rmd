@@ -10,6 +10,8 @@ links:
     url: "https://github.com/oharac"
   - label: twitter
     url: "https://twitter.com/oharascience"
+  - label: google scholar
+    url: 'https://scholar.google.com/citations?user=W8mU7s8AAAAJ&hl=en'
 output:
   postcards::jolla
 site: distill::distill_website
