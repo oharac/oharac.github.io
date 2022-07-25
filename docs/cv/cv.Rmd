@@ -1,12 +1,14 @@
 ---
-title: "Casey O'Hara"
-description: |
-  casey.c.ohara@gmail.com | cohara@bren.ucsb.edu
+# title: "Casey O'Hara"
+# description: |
+#   casey.c.ohara@gmail.com | cohara@bren.ucsb.edu
 output:
-  distill::distill_article:
-    toc: true
-    toc_depth: 2
-    css: postcards.css
+  pdf_document:
+    toc: no
+#   distill::distill_article:
+#     toc: true
+#     toc_depth: 2
+#     css: postcards.css
 ---
 <!-- for PDF: comment out title/description in YAML header -->
 
@@ -54,7 +56,7 @@ __Teaching Associate__
 
 * Advanced Data Analysis (ESM244) (Winter 2022)
 
-__Teaching Assistant__ (Recipient of 2021 Bren Teaching Assistant Award)
+__Teaching Assistant__ 
 
 * Statistics & Data Analysis for Environmental Science & Management (ESM206) (Fall 2019, 2021)
 * Advanced Data Analysis (ESM244) (Winter 2021)
@@ -91,7 +93,7 @@ National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 
 ## Publications
 
-```{r publications, child = 'pubs.Rmd'}
+```{r publications, child = '../pubs.Rmd'}
 
 ```
 
@@ -123,5 +125,5 @@ National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 * Maintenance Engineer (August 1994 - August 1995)  ATMEL Inc. - San Jose, CA  
 
 <!-- for PDF: comment out this line -->
-## <a href="cv/cv.pdf" target="_blank">PDF version of CV</a>
+<!-- ## <a href="cv/cv.pdf" target="_blank">PDF version of CV</a> -->
 
