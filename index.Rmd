@@ -18,7 +18,6 @@ site: distill::distill_website
 ---
  
 #### Conservation data scientist. 
-#### PhD candidate. 
 #### Occasional musician.
 #### Waffle enthusiast.
 

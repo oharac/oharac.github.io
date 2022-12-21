@@ -13,7 +13,9 @@ title: "Publications"
 
 See my [Google Scholar profile](https://scholar.google.com/citations?user=W8mU7s8AAAAJ&hl=en) for up to date publication list with citation counts.
 
-* Simmons, B. A., Butt, N., __O’Hara, C. C.__, Ray, R., Yang, H., Ma, Y., Ma, X., Gallagher, K. P. (draft).  Mapping the risks of China’s global coastal development to marine socio-ecological systems.
+* Reyes-García, V.,  Cámara-Leret, R., Halpern, B. S., __O’Hara, C. C.__, Renard, D., Zafra-Calvo, N., Díaz, S. (2023). [Biocultural vulnerability exposes threats of culturally important
+species. Proceedings of the National Academy of Sciences, 120(0)](https://doi.org/10.1073/pnas.2217303120)
+* Simmons, B. A., Butt, N., __O’Hara, C. C.__, Ray, R., Ma, Y., & Gallagher, K. P. (2022). [China’s global development finance poses heterogeneous risks to coastal and marine socio-ecological systems. One Earth, 5(12), 1377–1393.](https://doi.org/10.1016/j.oneear.2022.11.002)
 * __O’Hara, C. C.__, & Halpern, B. S. (2022). [Anticipating the Future of the World’s Ocean. Annual Review of Environment and Resources, 47(1), annurev-environ-120120-053645.](https://doi.org/10.1146/annurev-environ-120120-053645)
 * Butt, N., Halpern, B. S., __O’Hara, C. C.__, Allcock, A. L., Polidoro, B., Sherman, S., Byrne, M., Birkeland, C., Dwyer, R. G., Frazier, M., Woodworth, B. K., Arango, C. P., Kingsford, M. J., Udyawer, V., Hutchings, P., Scanes, E., McClaren, E. J., Maxwell, S. M., Diaz-Pulido, G., … Klein, C. J. (2022). [A trait-based framework for assessing the vulnerability of marine species to human impacts. Ecosphere, 13(2), e3919.](https://doi.org/10.1002/ecs2.3919)
 * __O’Hara, C. C.__, Frazier, M., & Halpern, B. S. (2021). [At-risk marine biodiversity faces extensive, expanding, and intensifying human impacts. Science, 372(6537), 84–87](https://doi.org/10.1126/science.abe6731). 

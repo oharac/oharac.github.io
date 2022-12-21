@@ -15,8 +15,8 @@ But human activity on land and on the ocean, as well as the effects of climate c
 In my research I examine the spatial distribution of impacts of human activity and climate change on marine biodiversity and functional diversity, to inform effective conservation strategies that support a healthy and sustainable marine social-ecological system.
 I am also keenly interested in the way that perceptions of equity in conservation decisionmaking can influence the sustainability of positive social and ecological outcomes.
 
-I am a PhD candidate at UC Santa Barbara's Bren School of Environmental Science and Management, advised by Ben Halpern.
-I continue to work with the [Halpern Lab](benhalpernlab.org) and the [Ocean Health Index](www.ohi-science.org) team at the [National Center for Ecological Analysis and Synthesis (NCEAS)](www.nceas.ucsb.edu).
+I received my Ph.D. from UC Santa Barbara's Bren School of Environmental Science and Management in 2022, advised by Ben Halpern.
+I continue to work with the [Halpern Lab](benhalpernlab.org) at the [National Center for Ecological Analysis and Synthesis (NCEAS)](www.nceas.ucsb.edu), and teach courses in the Bren School.
 
 Principles of open, reproducible data science are fundamental to my philosophy of practice as a scientist and teacher.  ["Our path to better science in less time"](https://www.nature.com/articles/s41559-017-0160) outlines the story of our Ocean Health Index team's evolution toward best practices of open science, using R, R Studio, and Github to collaborate and communicate our research. 
 
@@ -24,4 +24,4 @@ Principles of open, reproducible data science are fundamental to my philosophy o
 
 In a previous life, I taught high school integrated science, physics, and engineering design.  As a Senior Fellow of the [Knowles Teacher Initiative](https://knowlesteachers.org/), I continue to work with teachers as a coach and collaborative planner, but I do miss working with my students to help them discover and explore the laws of the universe. 
 
-In my copious free time as a grad student, I enjoy scuba diving and playing music, but not at the same time.  My dog Waffle is the best dog in the world, most of the time.  As you can see, he is also concerned about protecting marine biodiversity.
+When not saving the world one line of code at a time, I enjoy scuba diving and playing music, but not at the same time.  My dog Waffle is the best dog in the world, most of the time.  As you can see, he is also concerned about protecting marine biodiversity.

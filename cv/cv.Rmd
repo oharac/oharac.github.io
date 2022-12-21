@@ -1,22 +1,22 @@
 ---
-# title: "Casey O'Hara"
-# description: |
-#   casey.c.ohara@gmail.com | cohara@bren.ucsb.edu
+title: "Casey O'Hara"
+description: |
+  casey.c.ohara@gmail.com | cohara@bren.ucsb.edu
 output:
-  pdf_document:
-    toc: no
-#   distill::distill_article:
-#     toc: true
-#     toc_depth: 2
-#     css: postcards.css
+  # pdf_document:
+  #   toc: no
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+    css: postcards.css
 ---
 <!-- for PDF: comment out title/description in YAML header -->
 
 <!-- This will render for PDF title, but not for HTML title: -->
-\begin{center}
-  {\LARGE \textbf{Casey O'Hara}}\\
-  casey.c.ohara@gmail.com | cohara@bren.ucsb.edu
-\end{center}
+<!-- \begin{center} -->
+<!--   {\LARGE \textbf{Casey O'Hara}}\\ -->
+<!--   casey.c.ohara@gmail.com | cohara@bren.ucsb.edu -->
+<!-- \end{center} -->
 
 ## Education
 __PhD Environmental Science and Management (2022 expected)__  
@@ -52,23 +52,21 @@ UCSB Bren School - Santa Barbara, CA “Offshore wind energy in the context of m
 
 ## Teaching and mentoring (post-secondary)
 
-__Teaching Associate__
-
-* Advanced Data Analysis (ESM244) (Winter 2022)
-
-__Teaching Assistant__ (Recipient of 2021 Bren Teaching Assistant Award)
-
-* Statistics & Data Analysis for Environmental Science & Management (ESM206) (Fall 2019, 2021)
-* Advanced Data Analysis (ESM244) (Winter 2021)
-* Geographic Information Systems (ESM263) (Winter 2020)
-* Environmental Informatics (ESM262) (Spring 2019)
-* Quantitative Methods in Environmental Studies (ES25) (Spring 2013)
-
-__Group Project Ph.D. Mentor__
-
-* Developing a site suitability framework for shellfish aquaculture on Canada’s Pacific Coast (2021-2022)
-* Spatial Analysis to Inform Policy Recommendations for Shark and Ray Protection in Mozambique (2020-2021)
-* Where the	Wind Goes: Motivating Low Ecological Risk Wind Development (2018-2019)
+* __Lecturer__
+    * Advanced Data Analysis (ESM244) (Winter 2023)
+    * Team Science, Collaborative Analysis, and Project Management (EDS211) (Winter 2023)
+* __Teaching Associate__
+    * Advanced Data Analysis (ESM244) (Winter 2022)
+* __Teaching Assistant__ (Recipient of 2021 Bren Teaching Assistant Award)
+    * Statistics & Data Analysis for Environmental Science & Management (ESM206) (Fall 2019, 2021)
+    * Advanced Data Analysis (ESM244) (Winter 2021)
+    * Geographic Information Systems (ESM263) (Winter 2020)
+    * Environmental Informatics (ESM262) (Spring 2019)
+    * Quantitative Methods in Environmental Studies (ES25) (Spring 2013)
+* __Group Project Ph.D. Mentor__
+    * Developing a site suitability framework for shellfish aquaculture on Canada’s Pacific Coast (2021-2022)
+    * Spatial Analysis to Inform Policy Recommendations for Shark and Ray Protection in Mozambique (2020-2021)
+    * Where the	Wind Goes: Motivating Low Ecological Risk Wind Development (2018-2019)
 
 See also _STEM Education and Engineering_
 
@@ -104,7 +102,7 @@ National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 ### Secondary education experience
 
 * Program Consultant (June 2013 - August 2013)  The School for Examining Essential Questions of Sustainability (SEEQS) Charter School - Honolulu, HI 
-* Science Teacher: Physics, Integrated Science, Engineering & Green Tech (August 2004 - June 2012) Carlmont High School - Belmont, CA 
+* Science Teacher: Physics, Integrated Science, Engineering & Green Tech (August 2004 - June 2012) Carlmont High School - Belmont, CA
 * Education Liaison (November 2009 - December 2009) Amundsen-Scott South Pole Station, Antarctica 
 
 ### Secondary education leadership and honors
