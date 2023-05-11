@@ -3,6 +3,8 @@ title: "Casey O'Hara"
 description: |
   casey.c.ohara@gmail.com | cohara@bren.ucsb.edu
 output:
+  # pdf_document:
+  #   toc: no
   distill::distill_article:
     toc: true
     toc_depth: 2
@@ -11,13 +13,13 @@ output:
 <!-- for PDF: comment out title/description in YAML header -->
 
 <!-- This will render for PDF title, but not for HTML title: -->
-\begin{center}
-  {\LARGE \textbf{Casey O'Hara}}\\
-  casey.c.ohara@gmail.com | cohara@bren.ucsb.edu
-\end{center}
+<!-- \begin{center} -->
+<!--   {\LARGE \textbf{Casey O'Hara}}\\ -->
+<!--   casey.c.ohara@gmail.com | cohara@bren.ucsb.edu -->
+<!-- \end{center} -->
 
 ## Education
-__PhD Environmental Science and Management (2022 expected)__  
+__PhD Environmental Science and Management (2022)__  
 Bren School of Environmental Science & Management, University of California, Santa Barbara  
 _Committee: Dr. Benjamin Halpern (chair), Dr. Halley Froehlich, Dr. Christopher Costello_
 
@@ -50,25 +52,30 @@ UCSB Bren School - Santa Barbara, CA “Offshore wind energy in the context of m
 
 ## Teaching and mentoring (post-secondary)
 
-__Teaching Associate__
-
-* Advanced Data Analysis (ESM244) (Winter 2022)
-
-__Teaching Assistant__ (Recipient of 2021 Bren Teaching Assistant Award)
-
-* Statistics & Data Analysis for Environmental Science & Management (ESM206) (Fall 2019, 2021)
-* Advanced Data Analysis (ESM244) (Winter 2021)
-* Geographic Information Systems (ESM263) (Winter 2020)
-* Environmental Informatics (ESM262) (Spring 2019)
-* Quantitative Methods in Environmental Studies (ES25) (Spring 2013)
-
-__Group Project Ph.D. Mentor__
-
-* Developing a site suitability framework for shellfish aquaculture on Canada’s Pacific Coast (2021-2022)
-* Spatial Analysis to Inform Policy Recommendations for Shark and Ray Protection in Mozambique (2020-2021)
-* Where the	Wind Goes: Motivating Low Ecological Risk Wind Development (2018-2019)
+* __Lecturer__
+    * Advanced Data Analysis (ESM244) (Winter 2023)
+    * Team Science, Collaborative Analysis, and Project Management (EDS211) (Winter 2023)
+* __Teaching Associate__
+    * Advanced Data Analysis (ESM244) (Winter 2022)
+* __Teaching Assistant__ (Recipient of 2021 Bren Teaching Assistant Award)
+    * Statistics & Data Analysis for Environmental Science & Management (ESM206) (Fall 2019, 2021)
+    * Advanced Data Analysis (ESM244) (Winter 2021)
+    * Geographic Information Systems (ESM263) (Winter 2020)
+    * Environmental Informatics (ESM262) (Spring 2019)
+    * Quantitative Methods in Environmental Studies (ES25) (Spring 2013)
+* __Group Project Ph.D. Mentor__
+    * Developing a site suitability framework for shellfish aquaculture on Canada’s Pacific Coast (2021-2022)
+    * Spatial Analysis to Inform Policy Recommendations for Shark and Ray Protection in Mozambique (2020-2021)
+    * Where the	Wind Goes: Motivating Low Ecological Risk Wind Development (2018-2019)
 
 See also _STEM Education and Engineering_
+
+## Relevant technical skills
+
+*	R/R Studio including spatial analysis, data visualization, package development, ShinyApps
+* Git/GitHub version control and project management
+*	MATLAB, C/C++, HTML, JavaScript, LaTeX
+*	ArcGIS, QGIS
 
 ## Working groups
 
@@ -81,20 +88,15 @@ National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 * __Ocean Futures Working Group (SNAPP)__ (July 2018) <br>
 National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 
-
-## Relevant technical skills
-
-*	R/R Studio including spatial analysis, data visualization, package development, ShinyApps
-* Git/GitHub version control and project management
-*	MATLAB, Stata, C/C++, HTML, JavaScript, LaTeX
-*	ArcGIS, QGIS
-
 ## Publications
 
 ```{r publications, child = 'pubs.Rmd'}
 
 ```
 
+## Other academic service
+
+* Reviewed for journals: PeerJ, Aquatic Conservation, Marine and Coastal Fisheries, Frontiers in Marine Science
 
 <!-- \newpage -->
 ## STEM education and engineering
@@ -102,7 +104,7 @@ National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 ### Secondary education experience
 
 * Program Consultant (June 2013 - August 2013)  The School for Examining Essential Questions of Sustainability (SEEQS) Charter School - Honolulu, HI 
-* Science Teacher: Physics, Integrated Science, Engineering & Green Tech (August 2004 - June 2012) Carlmont High School - Belmont, CA 
+* Science Teacher: Physics, Integrated Science, Engineering & Green Tech (August 2004 - June 2012) Carlmont High School - Belmont, CA
 * Education Liaison (November 2009 - December 2009) Amundsen-Scott South Pole Station, Antarctica 
 
 ### Secondary education leadership and honors
@@ -123,5 +125,5 @@ National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 * Maintenance Engineer (August 1994 - August 1995)  ATMEL Inc. - San Jose, CA  
 
 <!-- for PDF: comment out this line -->
-## <a href="cv/cv.pdf" target="_blank">PDF version of CV</a>
+## <a href="cv.pdf" target="_blank">PDF version of CV</a>
 
