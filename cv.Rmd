@@ -1,7 +1,7 @@
 ---
 title: "Casey O'Hara"
 description: |
-  casey.c.ohara@gmail.com | cohara@bren.ucsb.edu
+  casey.c.ohara@gmail.com | cohara@ucsb.edu
 output:
   # pdf_document:
   #   toc: no
@@ -63,7 +63,8 @@ UCSB Bren School - Santa Barbara, CA “Offshore wind energy in the context of m
     * Geographic Information Systems (ESM263) (Winter 2020)
     * Environmental Informatics (ESM262) (Spring 2019)
     * Quantitative Methods in Environmental Studies (ES25) (Spring 2013)
-* __Group Project Ph.D. Mentor__
+* __Group Project Mentor/External Advisor__
+    * Prioritizing Chinook Salmon Habitat Restoration for Southern Resident Killer Whale Recovery (2022-2023)
     * Developing a site suitability framework for shellfish aquaculture on Canada’s Pacific Coast (2021-2022)
     * Spatial Analysis to Inform Policy Recommendations for Shark and Ray Protection in Mozambique (2020-2021)
     * Where the	Wind Goes: Motivating Low Ecological Risk Wind Development (2018-2019)
@@ -96,7 +97,7 @@ National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 
 ## Other academic service
 
-* Reviewed for journals: PeerJ, Aquatic Conservation, Marine and Coastal Fisheries, Frontiers in Marine Science
+* Peer reviews for journals: PeerJ, Aquatic Conservation, Marine and Coastal Fisheries, Frontiers in Marine Science
 
 <!-- \newpage -->
 ## STEM education and engineering
