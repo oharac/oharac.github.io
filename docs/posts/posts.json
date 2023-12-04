@@ -11,9 +11,9 @@
     ],
     "date": "2021-04-03",
     "categories": [],
-    "contents": "\r\nHuman activities and climate change threaten marine biodiversity worldwide, though sensitivity to these stressors varies considerably by species and taxonomic group. Mapping the spatial distribution of 14 anthropogenic stressors from 2003 to 2013 onto the ranges of 1271 at-risk marine species sensitive to them, we found that, on average, species faced potential impacts across 57% of their ranges, that this footprint expanded over time, and that the impacts intensified across 37% of their ranges. Although fishing activity dominated the footprint of impacts in national waters, climate stressors drove the expansion and intensification of impacts. Mitigating impacts on at-risk biodiversity is critical to supporting resilient marine ecosystems, and identifying the co-occurrence of impacts across multiple taxonomic groups highlights opportunities to amplify the benefits of conservation management.\r\n\r\n\r\n\r\n",
+    "contents": "\nHuman activities and climate change threaten marine biodiversity worldwide, though sensitivity to these stressors varies considerably by species and taxonomic group. Mapping the spatial distribution of 14 anthropogenic stressors from 2003 to 2013 onto the ranges of 1271 at-risk marine species sensitive to them, we found that, on average, species faced potential impacts across 57% of their ranges, that this footprint expanded over time, and that the impacts intensified across 37% of their ranges. Although fishing activity dominated the footprint of impacts in national waters, climate stressors drove the expansion and intensification of impacts. Mitigating impacts on at-risk biodiversity is critical to supporting resilient marine ecosystems, and identifying the co-occurrence of impacts across multiple taxonomic groups highlights opportunities to amplify the benefits of conservation management.\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-12-08T15:37:59-08:00",
+    "last_modified": "2022-12-21T13:07:12-08:00",
     "input_file": {}
   },
   {
@@ -28,9 +28,9 @@
     ],
     "date": "2021-01-07",
     "categories": [],
-    "contents": "\r\nhere is some stuff\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "contents": "\nhere is some stuff\n\n\n\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-12-08T15:37:59-08:00",
+    "last_modified": "2022-12-21T13:07:12-08:00",
     "input_file": {}
   },
   {
@@ -45,9 +45,9 @@
     ],
     "date": "2021-01-07",
     "categories": [],
-    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
     "preview": {},
-    "last_modified": "2022-12-08T15:37:59-08:00",
+    "last_modified": "2022-12-21T13:07:12-08:00",
     "input_file": {}
   }
 ]
