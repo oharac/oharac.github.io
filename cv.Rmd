@@ -3,12 +3,13 @@ title: "Casey O'Hara"
 description: |
   casey.c.ohara@gmail.com | cohara@ucsb.edu
 output:
-  # pdf_document:
-  #   toc: no
-  distill::distill_article:
+  word_document:
     toc: true
-    toc_depth: 2
-    css: postcards.css
+    toc_depth: '2'
+  # distill::distill_article:
+  #   toc: true
+  #   toc_depth: 2
+  #   css: postcards.css
 ---
 <!-- for PDF: comment out title/description in YAML header -->
 
@@ -38,7 +39,10 @@ Department of Mechanical Engineering, Stanford University
 
 ## Environmental science and management
 
-__Researcher, Ocean Health Index__ (January 2015 – present) <br>
+__Postdoctoral Researcher, Collaborative Network for Valuing Earth Information__ (March 2023 – February 2025) <br>
+National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
+
+__Researcher, Ocean Health Index__ (January 2015 – March 2023) <br>
 National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 
 __AAAS Mass Media Science Fellowship__ (June 2014 - September 2014) <br>
@@ -53,7 +57,7 @@ UCSB Bren School - Santa Barbara, CA “Offshore wind energy in the context of m
 ## Teaching and mentoring (post-secondary)
 
 * __Lecturer__
-    * Advanced Data Analysis (ESM244) (Winter 2023)
+    * Advanced Data Analysis (ESM244) (Winter 2023, Winter 2024)
     * Team Science, Collaborative Analysis, and Project Management (EDS211) (Winter 2023)
 * __Teaching Associate__
     * Advanced Data Analysis (ESM244) (Winter 2022)
@@ -80,6 +84,8 @@ See also _STEM Education and Engineering_
 
 ## Working groups
 
+* __Collaborative Network for Valuing Earth Information__ (March 2023, ongoing) <br>
+WWF, National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 * __Functional Interactions and Biodiversity Targets__ (April 2021, ongoing) <br>
 National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 * __Species Vulnerability Working Group (National Philanthropic Trust)__ (February 2020) <br>
@@ -89,7 +95,7 @@ National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 * __Ocean Futures Working Group (SNAPP)__ (July 2018) <br>
 National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 
-## Publications
+## Selected publications
 
 ```{r publications, child = 'pubs.Rmd'}
 
