@@ -1,14 +1,10 @@
 ---
 title: "Casey O'Hara"
 description: |
-  casey.c.ohara@gmail.com | cohara@ucsb.edu
+  casey.c.ohara@gmail.com | cohara@bren.ucsb.edu
 output:
-  # pdf_document:
-  #   toc: no
-  distill::distill_article:
-    toc: true
-    toc_depth: 2
-    css: postcards.css
+  word_document:
+    toc: no
 ---
 <!-- for PDF: comment out title/description in YAML header -->
 
@@ -38,10 +34,7 @@ Department of Mechanical Engineering, Stanford University
 
 ## Environmental science and management
 
-__Postdoctoral Researcher, Collaborative Network for Valuing Earth Information__ (March 2023 – February 2025) <br>
-National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
-
-__Researcher, Ocean Health Index__ (January 2015 – March 2023) <br>
+__Researcher, Ocean Health Index__ (January 2015 – present) <br>
 National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 
 __AAAS Mass Media Science Fellowship__ (June 2014 - September 2014) <br>
@@ -56,7 +49,7 @@ UCSB Bren School - Santa Barbara, CA “Offshore wind energy in the context of m
 ## Teaching and mentoring (post-secondary)
 
 * __Lecturer__
-    * Advanced Data Analysis (ESM244) (Winter 2023, Winter 2024)
+    * Advanced Data Analysis (ESM244) (Winter 2023)
     * Team Science, Collaborative Analysis, and Project Management (EDS211) (Winter 2023)
 * __Teaching Associate__
     * Advanced Data Analysis (ESM244) (Winter 2022)
@@ -66,8 +59,7 @@ UCSB Bren School - Santa Barbara, CA “Offshore wind energy in the context of m
     * Geographic Information Systems (ESM263) (Winter 2020)
     * Environmental Informatics (ESM262) (Spring 2019)
     * Quantitative Methods in Environmental Studies (ES25) (Spring 2013)
-* __Group Project Mentor/External Advisor__
-    * Prioritizing Chinook Salmon Habitat Restoration for Southern Resident Killer Whale Recovery (2022-2023)
+* __Group Project Ph.D. Mentor__
     * Developing a site suitability framework for shellfish aquaculture on Canada’s Pacific Coast (2021-2022)
     * Spatial Analysis to Inform Policy Recommendations for Shark and Ray Protection in Mozambique (2020-2021)
     * Where the	Wind Goes: Motivating Low Ecological Risk Wind Development (2018-2019)
@@ -83,8 +75,6 @@ See also _STEM Education and Engineering_
 
 ## Working groups
 
-* __Collaborative Network for Valuing Earth Information__ (March 2023, ongoing) <br>
-WWF, National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 * __Functional Interactions and Biodiversity Targets__ (April 2021, ongoing) <br>
 National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 * __Species Vulnerability Working Group (National Philanthropic Trust)__ (February 2020) <br>
@@ -94,15 +84,15 @@ National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 * __Ocean Futures Working Group (SNAPP)__ (July 2018) <br>
 National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 
-## Selected publications
+## Publications
 
 ```{r publications, child = 'pubs.Rmd'}
 
 ```
 
-<!-- ## Other academic service -->
+## Other academic service
 
-<!-- * Peer reviews for journals: PeerJ, Aquatic Conservation, Marine and Coastal Fisheries, Frontiers in Marine Science -->
+* Reviewed for journals: PeerJ, Aquatic Conservation, Marine and Coastal Fisheries, Frontiers in Marine Science
 
 <!-- \newpage -->
 ## STEM education and engineering
