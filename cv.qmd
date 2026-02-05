@@ -1,22 +1,16 @@
 ---
 title: "Casey O'Hara"
 description: |
-  casey.c.ohara@gmail.com | cohara@ucsb.edu
-output:
-  # pdf_document:
-  #   toc: no
-  distill::distill_article:
-    toc: true
-    toc_depth: 2
-    css: postcards.css
+  casey.c.ohara@gmail.com | ohara@nceas.ucsb.edu
+format:
+  docx:
+    toc: false # FOR NON-HTML: comment out last line of document
+  # distill::distill_article:
+  #   toc: true
+  #   toc_depth: 2
+  #   css: postcards.css
 ---
-<!-- for PDF: comment out title/description in YAML header -->
 
-<!-- This will render for PDF title, but not for HTML title: -->
-<!-- \begin{center} -->
-<!--   {\LARGE \textbf{Casey O'Hara}}\\ -->
-<!--   casey.c.ohara@gmail.com | cohara@bren.ucsb.edu -->
-<!-- \end{center} -->
 
 ## Education
 __PhD Environmental Science and Management (2022)__  
@@ -37,6 +31,9 @@ __Bachelor of Science in Mechanical Engineering (1993)__
 Department of Mechanical Engineering, Stanford University
 
 ## Environmental science and management
+
+__Project Scientist__ (March 2025 - present) <br>
+National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 
 __Postdoctoral Researcher, Collaborative Network for Valuing Earth Information__ (March 2023 – February 2025) <br>
 National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
@@ -83,9 +80,10 @@ See also _STEM Education and Engineering_
 
 ## Working groups
 
-* __Collaborative Network for Valuing Earth Information__ (March 2023, ongoing) <br>
+* __USGS Climate Adaptation Postdoctoral Fellows Program__ (September 2025, ongoing) <br>
+* __Collaborative Network for Valuing Earth Information__ (March 2023) <br>
 WWF, National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
-* __Functional Interactions and Biodiversity Targets__ (April 2021, ongoing) <br>
+* __Functional Interactions and Biodiversity Targets__ (April 2021) <br>
 National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 * __Species Vulnerability Working Group (National Philanthropic Trust)__ (February 2020) <br>
 Matadradra Serua, Fiji
@@ -104,7 +102,7 @@ National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 
 <!-- * Peer reviews for journals: PeerJ, Aquatic Conservation, Marine and Coastal Fisheries, Frontiers in Marine Science -->
 
-<!-- \newpage -->
+\newpage
 ## STEM education and engineering
 
 ### Secondary education experience
@@ -130,6 +128,6 @@ National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 * Mechanical Engineer (August 1995 - April 1997)  Applied Materials, Inc. - Santa Clara, CA 
 * Maintenance Engineer (August 1994 - August 1995)  ATMEL Inc. - San Jose, CA  
 
-<!-- for PDF: comment out this line -->
-## <a href="cv.pdf" target="_blank">PDF version of CV</a>
+<!-- for non-HTML: comment out this line -->
+<!-- ## <a href="cv.pdf" target="_blank">PDF version of CV</a> -->
 
