@@ -1,0 +1,21 @@
+---
+title: "Casey O'Hara"
+image: "waffle1.jpg"
+about:
+  template: jolla
+  image-width: 20em
+  links:
+    - text: email
+      href: "mailto:cohara@ucsb.edu"
+    - text: github
+      href: "https://github.com/oharac"
+    - text: twitter
+      href: "https://twitter.com/oharascience"
+    - text: google scholar
+      href: "https://scholar.google.com/citations?user=W8mU7s8AAAAJ&hl=en"
+---
+ 
+#### Conservation data scientist. 
+#### Occasional musician.
+#### Waffle enthusiast.
+

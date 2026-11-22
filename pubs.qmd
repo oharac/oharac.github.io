@@ -1,0 +1,5 @@
+---
+title: "Selected Publications"
+---
+
+{{< include _pubs.md >}}

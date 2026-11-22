@@ -1,0 +1,7 @@
+/* Fonts carried over from the old distill/postcards theme */
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Raleway&display=swap');
+
+body { font-family: "Raleway", sans-serif; }
+h1, h2, h3, h4, .title { font-family: "Amiri", serif; }
+.navbar { --bs-navbar-color: rgba(255, 255, 255, 0.7); }
+.nav-footer { background-color: #0F2E3D; }

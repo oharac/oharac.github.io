@@ -1,20 +1,36 @@
 ---
-title: "Casey O'Hara"
+title: "Casey O’Hara"
 description: |
-  casey.c.ohara@gmail.com | ohara@nceas.ucsb.edu
+  National Center for Ecological Analysis and Synthesis | [cohara@ucsb.edu](mailto:cohara@ucsb.edu) | [https://orcid.org/0000-0003-2968-7005](https://orcid.org/0000-0003-2968-7005)
 format:
-  # docx:
-  #   toc: false # FOR NON-HTML: comment out last line of document
-  distill::distill_article:
-    toc: true
-    toc_depth: 2
-    css: postcards.css
+  html:
+    toc: false
+    page-layout: article
+  docx:
+    toc: false
+    # styles (fonts, headings, margins) come from the Word template
+    reference-doc: cv_template.docx
+    # Quarto demotes headings when a title is present; undo so ## = Heading 1
+    shift-heading-level-by: -1
+#   distill::distill_article:
+#     toc: true
+#     toc_depth: 2
+#     css: postcards.css
 ---
 
+::: {.content-visible when-format="docx"}
+::: {custom-style="Contact"}
+National Center for Ecological Analysis and Synthesis   |   [cohara@ucsb.edu](mailto:cohara@ucsb.edu)   |   [https://orcid.org/0000-0003-2968-7005](https://orcid.org/0000-0003-2968-7005)
+:::
+:::
+
+I am a marine conservation scientist using spatial, quantitative, and open-science approaches to understand how human pressures and climate change affect biodiversity, and how such information can inform conservation decisions. My publishing history includes six first-author papers in journals including *Science* and *PNAS*. My research program grows out of work on cumulative human impacts on at-risk marine species and climate-driven turnover of marine taxonomic and functional diversity. Building on that work, my current projects are focusing on the value of biodiversity information for improving conservation decisions and their societal benefits.
 
 ## Education
+
 __PhD Environmental Science and Management (2022)__  
 Bren School of Environmental Science & Management, University of California, Santa Barbara  
+Dissertation: "[Cataloguing and mapping cumulative human impacts on marine biological and functional diversity to inform conservation management](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=W8mU7s8AAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=W8mU7s8AAAAJ:mVmsd5A6BfQC)"  
 _Committee: Dr. Benjamin Halpern (chair), Dr. Halley Froehlich, Dr. Christopher Costello_
 
 __Master of Environmental Science and Management (2014)__  
@@ -30,24 +46,21 @@ Department of Mechanical Engineering, Design Division, Stanford University
 __Bachelor of Science in Mechanical Engineering (1993)__  
 Department of Mechanical Engineering, Stanford University
 
-## Environmental science and management
+## Professional experience
 
-__Project Scientist__ (March 2025 - present) <br>
+__Assistant Project Scientist, USGS Climate Adaptation Postdoctoral Fellows Program__ (March 2025 - present). <br>
 National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 
-__Postdoctoral Researcher, Collaborative Network for Valuing Earth Information__ (March 2023 – February 2025) <br>
+__Postdoctoral Researcher, Collaborative Network for Valuing Earth Information__ (March 2023 – February 2025). <br>
 National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 
-__Researcher, Ocean Health Index__ (January 2015 – March 2023) <br>
+__Assistant Specialist and Graduate Student Researcher, Ocean Health Index__ (January 2015 – March 2023). <br>
 National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 
-__AAAS Mass Media Science Fellowship__ (June 2014 - September 2014) <br>
+__AAAS Mass Media Science Fellowship__ (June 2014 - September 2014). <br>
 _The Oregonian_ - Portland, OR
 
-__Program Consultant__ (June 2013 - August 2013) <br>
-The School for Examining Essential Questions of Sustainability (SEEQS) Charter School - Honolulu, HI
-
-__Masters Thesis Group Project__ (April 2013 - June 2014) <br>
+__Master’s Thesis Group Project__ (April 2013 - June 2014). <br>
 UCSB Bren School - Santa Barbara, CA “Offshore wind energy in the context of multiple ocean uses on the Bermuda platform.” Client: Department of Environmental Protection, Bermuda
 
 ## Teaching and mentoring (post-secondary)
@@ -67,67 +80,72 @@ UCSB Bren School - Santa Barbara, CA “Offshore wind energy in the context of m
     * Prioritizing Chinook Salmon Habitat Restoration for Southern Resident Killer Whale Recovery (2022-2023)
     * Developing a site suitability framework for shellfish aquaculture on Canada’s Pacific Coast (2021-2022)
     * Spatial Analysis to Inform Policy Recommendations for Shark and Ray Protection in Mozambique (2020-2021)
-    * Where the	Wind Goes: Motivating Low Ecological Risk Wind Development (2018-2019)
+    * Where the Wind Goes: Motivating Low Ecological Risk Wind Development (2018-2019)
 
-See also _STEM Education and Engineering_
-
-## Relevant technical skills
-
-*	R/R Studio including spatial analysis, data visualization, package development, ShinyApps
-* Git/GitHub version control and project management
-*	MATLAB, C/C++, HTML, JavaScript, LaTeX
-*	ArcGIS, QGIS
+See also [Additional STEM education and engineering experience](#additional-stem-education-and-engineering-experience)
 
 ## Working groups
 
-* __USGS Climate Adaptation Postdoctoral Fellows Program__ (September 2025, ongoing) <br>
-* __Collaborative Network for Valuing Earth Information__ (March 2023) <br>
+* __USGS Climate Adaptation Postdoctoral Fellows Program__ (September 2025, January 2026, planned March 2027).
+* __Collaborative Network for Valuing Earth Information__ (March 2023). <br>
 WWF, National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
-* __Functional Interactions and Biodiversity Targets__ (April 2021) <br>
+* __Functional Interactions and Biodiversity Targets__ (April 2021). <br>
 National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
-* __Species Vulnerability Working Group (National Philanthropic Trust)__ (February 2020) <br>
+* __Species Vulnerability Working Group (National Philanthropic Trust)__ (February 2020). <br>
 Matadradra Serua, Fiji
-* __Coastal Outcomes Working Group (SNAPP)__ (April 2019) <br>
+* __Coastal Outcomes Working Group (SNAPP)__ (April 2019). <br>
 National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
-* __Ocean Futures Working Group (SNAPP)__ (July 2018) <br>
+* __Ocean Futures Working Group (SNAPP)__ (July 2018). <br>
 National Center for Ecological Analysis and Synthesis - Santa Barbara, CA
 
 ## Selected publications
 
-```{r publications, child = 'pubs.Rmd'}
+{{< include _pubs.md >}}
 
-```
+### In review
 
-<!-- ## Other academic service -->
+* Fleury, A.G., **O’Hara, C.C.**, Everett, J.D., Halpern, B.S., Klein, C.J., Richardson, A.J., & Dunn, D. C. (revise and resubmit). Linking area-based and impact reduction targets for biodiversity conservation policy. Marine Policy.
+* Tapia-Lewin, S., Fredston, A., **O’Hara, C.C.**, Wilson, M.W., Finkbeiner, E.M., Micheli, F., Gelcich, S., & Halpern, B.S. (revise and resubmit). Catch stability and adaptive capacity in comanaged small-scale fisheries: a diagnostic assessment. AMBIO.
 
-<!-- * Peer reviews for journals: PeerJ, Aquatic Conservation, Marine and Coastal Fisheries, Frontiers in Marine Science -->
+### In preparation
 
-\newpage
-## STEM education and engineering
+* **O’Hara, C. C.**, Abowd, L., Reygondeau, G., & Halpern, B. S. (in preparation). Global species and biomass models project widespread hollowing of marine ecosystems under climate change.
+
+## Select software and data products
+
+* Packages: [lhCore, lhLessons](https://nceas-learning-hub.github.io/lh_packages/index.html): R packages developed to facilitate curriculum design and publishing for NCEAS Learning Hub
+* Course materials: Casey O’Hara, Nick J. Lyon & Jim Regetz (2026), [NCEAS Synthesis Skills Training for the Delta Science Program, April 2026, NCEAS Learning Hub.](https://nceas-learning-hub.github.io/2026_delta_week1).
+* Dataset: O'Hara, C.C. (2026). [Species traits and vulnerability scores: global marine fauna. Knowledge Network for Biocomplexity.](https://doi.org/10.5063/F1QC0211)
+* Dataset: O'Hara, C.C. (2025). [Code and data for "A Systematic Map of Methods for Assessing Societal Benefits of Earth Science Information". Knowledge Network for Biocomplexity.](https://doi.org/10.5063/F1MP51R3)
+* Dataset: O'Hara, C.C. (2021). [Code and data for: A trait-based framework for assessing the vulnerability of marine species to human impacts (Butt et al., 2021). Knowledge Network for Biocomplexity.](https://doi.org/10.5063/F1FX77VJ)
+
+### Technical skills
+
+* Proficiency in R/R Studio including spatial analysis, data visualization, package development, ShinyApps
+* Proficiency in Git/GitHub version control, publishing, and project management
+* Familiarity with Python, MATLAB, C/C++, HTML, JavaScript, LaTeX, ArcGIS, QGIS
+
+## Additional STEM education and engineering experience
 
 ### Secondary education experience
 
-* Program Consultant (June 2013 - August 2013)  The School for Examining Essential Questions of Sustainability (SEEQS) Charter School - Honolulu, HI 
-* Science Teacher: Physics, Integrated Science, Engineering & Green Tech (August 2004 - June 2012) Carlmont High School - Belmont, CA
-* Education Liaison (November 2009 - December 2009) Amundsen-Scott South Pole Station, Antarctica 
+* Program Consultant (June 2013 - August 2013). The School for Examining Essential Questions of Sustainability (SEEQS) Charter School - Honolulu, HI
+* Science Teacher: Physics, Integrated Science, Engineering & Green Tech (August 2004 - June 2012). Carlmont High School - Belmont, CA
+* Education Liaison (November 2009 - December 2009). Amundsen-Scott South Pole Station, Antarctica
 
 ### Secondary education leadership and honors
 
 * "Where the Wonder Went" documentary short film, Santa Barbara International Film Festival (2014)
-* Senior Fellow, Knowles Science Teaching Foundation (2009 - present)
-* Teaching Fellow, Knowles Science Teaching Foundation (2004 - 2009)
+* Senior Fellow, Knowles Teacher Initiative (2009 - present)
+* Teaching Fellow, Knowles Teacher Initiative (2004 - 2009)
 * Exploratorium Teacher Institute (2004 - 2013)
 * Innovative Teacher of the Year, Carlmont High School (2011)
 * Amgen Award for Science Teaching Excellence (2011)
-* Certification: National Board for Professional Teaching Standards (Science - Adolescent/Young Adult) (2009) 
+* Certification: National Board for Professional Teaching Standards (Science - Adolescent/Young Adult) (2009)
 
 ### Engineering experience
 
-* Mechanical Engineer (May 2000 - December 2003)   St. Jude Medical, Inc. - Sunnyvale, CA 
-* Mechanical Engineer (May 1997 - May 2000)   Asyst Technologies (Hine Design) - Sunnyvale, CA 
-* Mechanical Engineer (August 1995 - April 1997)  Applied Materials, Inc. - Santa Clara, CA 
-* Maintenance Engineer (August 1994 - August 1995)  ATMEL Inc. - San Jose, CA  
-
-<!-- for non-HTML: comment out this line -->
-<!-- ## <a href="cv.pdf" target="_blank">PDF version of CV</a> -->
-
+* Mechanical Engineer (May 2000 - December 2003). St. Jude Medical, Inc. - Sunnyvale, CA
+* Mechanical Engineer (May 1997 - May 2000). Asyst Technologies (Hine Design) - Sunnyvale, CA
+* Mechanical Engineer (August 1995 - April 1997). Applied Materials, Inc. - Santa Clara, CA
+* Maintenance Engineer (August 1994 - August 1995). ATMEL Inc. - San Jose, CA

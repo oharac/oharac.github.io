@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+    - about.qmd
+    - pubs.qmd
+    - cv.qmd
+    - waffle.qmd
+  resources:
+    - CNAME
+    - cv.pdf
+
+website:
+  title: "oharascience"
+  navbar:
+    background: "#438496"
+    right:
+      - text: "home"
+        href: index.qmd
+      - text: "about"
+        href: about.qmd
+      - text: "publications"
+        href: pubs.qmd
+      - text: "cv"
+        href: cv.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
